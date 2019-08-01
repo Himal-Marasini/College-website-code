@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 2.25em;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/********** COMMON CODE ***************/
+
+.clearfix::after {
+  clear: both;
+  display: block;
+}
+
+nav {
+  background-color: #3498db;
+  width: 100%;
+  height: 41px;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 68px;
+}
+
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/********** HEADER ***************/
+
+header p {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.btn {
+  float: right;
+  font-size: 0.889em;
+  width: 144px;
+  height: 40px;
+  color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  font-weight: 600;
+}
+
+#btn-1 {
+  margin-top: 8px;
+  background-color: #0288d1;
+  color: white;
+}
+
+#btn-2 {
+  margin-right: 15px;
+  margin-top: 8px;
+  background-color: #b3e5fc;
+}
+
+.top_part {
+  width: 100%;
+  height: auto;
+  background-color: #757575;
+  padding-bottom: 10px;
+}
+
+.forfillForm {
+  display: none;
+}
+
+.second_part {
+  margin-top: 10px;
+}
+
+.second_part p {
+  color: #3498db;
+  text-transform: capitalize;
+  float: right;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: Dancing Script;
+  font-size: 2.353em;
+}
+
+#one_logo {
+  width: 200px;
+}
+
+.menu {
+  display: none;
+}
+
+/********** SECTION ***************/
+
+.contact_us {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+p {
+  color: #212121;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+.for_icon img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.map {
+  float: right;
+  margin-top: 30px;
+}
+
+/********** FOOTER ***************/
+
+footer {
+  background: url(../assets/Images/grayBg.jpg) 0 0 no-repeat fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 140px;
+}
+
+.forOverlay {
+  background-color: rgba(52, 152, 219, 0.9);
+  width: 100%;
+  height: auto;
+}
+
+.footer_info {
+  display: flex;
+}
+
+#Footerlogo {
+  width: 140px;
+  height: auto;
+}
+
+footer h5 {
+  font-family: montserrat;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Affiliated_By {
+  margin-top: 10px;
+}
+
+.Affiliated_By img {
+  height: 58px;
+  width: auto;
+}
+
+.ctevt {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+}
+
+.ctevt figcaption {
+  text-align: center;
+}
+
+.ctevt h5 {
+  margin-bottom: 2px;
+}
+
+.pokharabg {
+  display: inline-block;
+  margin-left: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+#puLogo {
+  margin-left: 40px;
+}
+
+.copyright_social {
+  flex-basis: 65%;
+  margin-top: 30px;
+}
+
+.copyright_social p {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.copyright_social_responsive {
+  display: none;
+}
+
+/********** RP for 768px ***************/
+
+@media only screen and (max-width: 768px) {
+  .row {
+    width: 748px;
+  }
+
+  /************** HEADER *******************/
+
+  .second_part p {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  nav {
+    width: auto;
+    height: 41px;
+    position: relative;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    border-bottom: 1px solid white;
+    font-weight: 550;
+    margin: 0;
+    background-color: #3498db;
+  }
+
+  a {
+    color: white;
+  }
+
+  .menu {
+    width: 40px;
+    height: 34px;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    display: block;
+  }
+
+  .copyright_social {
+    order: 2;
+    flex-basis: 50%;
+  }
+
+  .Affiliated_By {
+    order: 1;
+    text-align: center;
+  }
+
+  .ctevt {
+    margin-left: 40px;
+  }
+}
+
+/********** RP for 425px ***************/
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 400px;
+  }
+
+  /************** HEADER *******************/
+  header p {
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+
+  .forfillForm {
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .top_part {
+    padding-bottom: 0;
+  }
+
+  #one_logo {
+    width: 140px;
+  }
+
+  .second_part p {
+    margin-top: 4px;
+    font-size: 1.5em;
+  }
+
+  #Lec_pic {
+    width: 100%;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+
+  .for_circle {
+    bottom: 23px;
+    left: 126px;
+  }
+
+  .forIconbtn {
+    width: 30px;
+    height: 51px;
+  }
+
+  .btn {
+    display: none;
+    font-size: 0.725em;
+  }
+
+  #btnOne {
+    bottom: 64px;
+    left: 0;
+  }
+
+  .btn_one {
+    top: 55px;
+    left: 5px;
+  }
+
+  .btn_two {
+    top: 53px;
+    left: 382px;
+  }
+
+  #btnTwo {
+    bottom: 64px;
+    right: 0;
+  }
+
+  .contact_us {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .map {
+    float: none;
+  }
+
+  .footer_info {
+    display: block;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  .copyright_social {
+    display: none;
+  }
+
+  .copyright_social_responsive {
+    font-size: 0.778em;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+}
+
+/********** RP for 375px ***************/
+
+@media only screen and (max-width: 375px) {
+  .row {
+    width: 375px;
+  }
+
+  /************** HEADER *******************/
+  .second_part p {
+    font-size: 1.3em;
+  }
+}
+
+/********** RP for 320px ***************/
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 320px;
+  }
+
+  header p {
+    margin-left: 4px;
+    text-transform: capitalize;
+  }
+
+  #one_logo {
+    width: 150px;
+  }
+
+  .second_part p {
+    display: none;
+  }
+
+  .ctevt {
+    margin-left: 20px;
+  }
+}

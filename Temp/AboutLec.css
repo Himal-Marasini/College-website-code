@@ -1,0 +1,619 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 2.25em;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/********** COMMON CODE ***************/
+
+.clearfix::after {
+  clear: both;
+  display: block;
+}
+
+nav {
+  background-color: #3498db;
+  width: 100%;
+  height: 41px;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 68px;
+}
+
+.row {
+  width: 84%;
+  margin: 0 auto;
+}
+
+/********** HEADER ***************/
+
+/* @import "./header.css"; */
+
+.header-text_left {
+  display: inline-block;
+}
+
+.header-text_left p {
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.header-btn_right {
+  float: right;
+}
+
+.top_btn {
+  font-size: 0.889em;
+  width: 9em;
+  height: 2.5em;
+  color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0.25em;
+  margin-top: 0.438em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.forfillForm {
+  display: none;
+}
+
+#btn-1 {
+  margin-top: 0.5em;
+  background-color: #0288d1;
+  color: white;
+}
+
+#btn-2 {
+  margin-right: 0.938em;
+  margin-top: 0.5em;
+  background-color: #b3e5fc;
+}
+
+.top_part {
+  width: auto;
+  height: auto;
+  background-color: #757575;
+  padding-bottom: 0.625em;
+
+}
+
+.second_part {
+  margin-top: 0.625em;
+}
+
+.second_part p {
+  color: #3498db;
+  text-transform: capitalize;
+  float: right;
+  margin-top: 0.625em;
+  margin-right: 5em;
+  font-family: Dancing Script;
+  font-size: 2.353em;
+}
+
+#one_logo {
+  width: 12.5em;
+}
+
+ul {
+  display: block;
+}
+
+.menu {
+  display: none;
+}
+
+/********** SECTION ***************/
+
+/* @import "./section.css"; */
+
+.forbox_shadow {
+  width: 84%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.1);
+}
+
+.center_bold {
+  text-align: center;
+  margin-top: 1.25em;
+  margin-bottom: 1.875em;
+  padding-top: 1.875em;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+.lec_paragraph {
+  font-size: 0.889em;
+  line-height: 2em;
+  margin-left: 0.813em;
+}
+
+.cllg_moto {
+  margin-top: 1.25em;
+  font-size: 0.889em;
+  line-height: 2em;
+  margin-left: 0.813em;
+}
+
+.cllg_moto h5 {
+  font-size: 1.33em;
+  font-weight: 500;
+}
+
+.cllg_moto ul {
+  text-align: left;
+  margin-top: 1.25em;
+  padding-bottom: 1.875em;
+}
+
+.cllg_moto li::before {
+  content: "";
+  width: 1.563em;
+  height: 1.375em;
+  display: inline-block;
+  background-image: url(../assets/Images/tick.svg);
+  background-size: 1.313em 1.813em;
+  background-repeat: no-repeat;
+  margin-right: 1.25em;
+  vertical-align: -0.25em;
+}
+
+.cllg_moto li {
+  display: block;
+  margin-left: 0;
+}
+
+/********** IMAGE SLIDER ***************/
+
+/* @import "./imgSlider.css"; */
+
+.container {
+  position: relative;
+  width: auto;
+  height: 40%;
+  display: block;
+  margin: 1.875em auto 0 auto;
+}
+
+.btn {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 1.833em;
+  color: #fff;
+}
+
+.btn_one {
+  position: absolute;
+  top: 9.938em;
+  left: 3.438em;
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.btn_two {
+  position: absolute;
+  top: 9.938em;
+  left: 66.563em;
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.forIconbtn {
+  display: inline-block;
+  width: 3.188em;
+  height: 5em;
+  background-color: #212121;
+  position: absolute;
+  opacity: 0.7;
+}
+
+#btnOne {
+  bottom: 9em;
+  left: 2.438em;
+}
+
+#btnTwo {
+  bottom: 9.063em;
+  right: 2.5em;
+}
+
+.btn_two:hover,
+.btn_one:hover {
+  opacity: 1;
+}
+
+.for_circle {
+  position: absolute;
+  bottom: 2.25em;
+  left: 31.375em;
+}
+
+.dot {
+  height: 0.938em;
+  width: 0.938em;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dottoggle {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.lol {
+  width: 100%;
+  height: 100%;
+}
+
+#Lec_pic {
+  width: 93%;
+  height: 30%;
+  margin: 1.875em auto;
+  display: block;
+}
+
+.img_container {
+  width: auto;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+/********** FOOTER ***************/
+
+/* @import "./footer.css"; */
+
+footer {
+  background: url(../assets/Images/grayBg.jpg) 0 0 no-repeat fixed;
+  width: auto;
+  height: auto;
+  margin-top: 1.875em;
+}
+
+.forOverlay {
+  background-color: rgba(52, 152, 219, 0.9);
+  width: 100%;
+  height: auto;
+}
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Footerlogo {
+  width: 8.75em;
+  height: auto;
+}
+
+.logo_contact {
+  font-family: montserrat;
+  color: #212121;
+  font-size: 0.889em;
+  margin-top: 1.25em;
+  /* flex-basis: 70%; */
+  flex-grow: 2;
+}
+
+.DivforLogo {
+  display: inline-block;
+}
+
+.contact_us {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+footer h5 {
+  font-family: montserrat;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.logo_contact span {
+  font-weight: 500;
+}
+
+.Affiliated_By {
+  margin-top: 1.25em;
+  display: inline-block;
+  /* flex-basis: 30%; */
+}
+
+.ctevt {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+}
+
+.ctevt figcaption {
+  text-align: center;
+}
+
+.ctevt h5 {
+  margin-bottom: 0.125em;
+}
+
+.pokharabg {
+  display: inline-block;
+  margin-left: 1.875em;
+  color: white;
+  font-weight: 600;
+}
+
+#puLogo {
+  margin-left: 2.5em;
+}
+
+.copyright_social {
+  display: flex;
+  margin-top: 1.875em;
+}
+
+.copyright_social p {
+  flex: 2;
+  font-size: 0.778em;
+  margin-top: 1.875em;
+  margin-left: 1.25em;
+  font-weight: 400;
+}
+
+.socialMedia_logo {
+  flex: 1;
+  margin-left: 7.188em;
+}
+
+.socialMedia_logo ul {
+  text-align: left;
+}
+
+.socialMedia_logo li {
+  margin-right: 0.625em;
+  margin-left: 0;
+}
+
+.socialMedia_logo p {
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.socialMedia_logo img {
+  width: 1.875em;
+  height: 1.875em;
+}
+
+/********** RP for 768px ***************/
+
+@media only screen and (max-width: 769px) {
+  .row {
+    /* width: 748px; */
+    width: auto;
+  }
+
+  /************** HEADER *******************/
+
+  /* .second_part p {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  nav {
+    width: auto;
+    height: 41px;
+    position: relative;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    border-bottom: 1px solid white;
+    font-weight: 550;
+    margin: 0;
+    background-color: #3498db;
+  }
+
+  a {
+    color: white;
+  }
+
+  .menu {
+    width: 40px;
+    height: 34px;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    display: block;
+  }
+*/
+  .top_btn {
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
+  }
+
+
+
+  /************** SECTION *******************/
+
+  /* .forbox_shadow {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .for_circle {
+    bottom: 26px;
+    left: 294px;
+  }
+
+  #btnOne {
+    bottom: 104px;
+    left: 26px;
+  }
+
+  #btnTwo {
+    bottom: 104px;
+    right: 26px;
+  }
+
+  .btn_one {
+    top: 100px;
+    left: 32px;
+    font-size: 0.685em;
+  }
+
+  .btn_two {
+    top: 101px;
+    left: 695px;
+    font-size: 0.685em;
+  }
+
+  .forIconbtn {
+    width: 33px;
+    height: 60px;
+  } */
+
+  /************** FOOTER *******************/
+  /* #Footerlogo {
+    width: 120px;
+  }
+
+  .contact_Us {
+    margin-left: 5px;
+  }
+
+  .Affiliated_By {
+    margin-right: 10px;
+  } */
+}
+
+@media only screen and (max-width:590px) {
+  #one_logo {
+    width: 10.5em;
+  }
+
+  .second_part p {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width:512px) {
+  #one_logo {
+    width: 9.5em;
+  }
+
+  .second_part p {
+    font-size: 1.95em;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .copyright_social {
+    display: block;
+  }
+
+  .copyright_social p {
+    text-align: center;
+  }
+
+  .socialMedia_logo {
+    margin: 0;
+    flex: none;
+  }
+
+  .socialMedia_logo ul {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+
+  .header-text_left {
+    text-align: center;
+    display: block;
+  }
+
+  .header-btn_right {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  .second_part p {
+    margin-top: 0.795em;
+  }
+}
+
+@media only screen and (max-width:880px) {
+  .flex_container {
+    display: block;
+    text-align: center;
+  }
+
+  .logo_contact {
+    text-align: center;
+  }
+
+  .Affiliated_By {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1357px) {
+  .second_part p {
+    margin-right: 0;
+  }
+}
+
+/********** RP for 425px ***************/
+
+/* @import "./RP(425).css"; */
+
+/********** RP for 375px ***************/
+
+/* @import "./RP(375).css"; */
+
+/********** RP for 320px ***************/
+
+/* @import "./RP(320).css"; */

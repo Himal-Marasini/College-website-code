@@ -1,0 +1,751 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Raleway;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 2.25em;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/********** COMMON CODE ***************/
+
+.clearfix::after {
+  clear: both;
+  display: block;
+}
+
+nav {
+  background-color: #3498db;
+  width: 100%;
+  height: 41px;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 68px;
+}
+
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/********** HEADER ***************/
+
+header p {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.btn {
+  float: right;
+  font-size: 0.889em;
+  width: 144px;
+  height: 40px;
+  color: #212121;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  font-weight: 600;
+}
+
+#btn-1 {
+  margin-top: 8px;
+  background-color: #0288d1;
+  color: white;
+}
+
+#btn-2 {
+  margin-right: 15px;
+  margin-top: 8px;
+  background-color: #b3e5fc;
+}
+
+.forfillForm {
+  display: none;
+}
+
+.top_part {
+  width: 100%;
+  height: auto;
+  background-color: #757575;
+  padding-bottom: 10px;
+}
+
+.second_part {
+  margin-top: 10px;
+}
+
+.second_part p {
+  color: #3498db;
+  text-transform: capitalize;
+  float: right;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: Dancing Script;
+  font-size: 2.353em;
+}
+
+#one_logo {
+  width: 200px;
+}
+
+.menu {
+  display: none;
+}
+
+/********** SECTION ***************/
+
+.toggle_Container {
+  display: inline-block;
+  -webkit-transform: translate(378px, 26px);
+  transform: translate(378px, 26px);
+  position: relative;
+}
+
+.forToggling {
+  width: 140px;
+  height: 34px;
+  background-color: #ecf0f1;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.forToggling:hover {
+  background-color: #2ecc71;
+}
+
+.forActive {
+  background-color: #00b894;
+  color: white;
+  font-weight: 550;
+  transition: background-color 150ms linear;
+}
+
+.forActive:hover {
+  background-color: #00b894;
+}
+
+#forDiploma {
+  border-radius: 15px 0px 0px 15px;
+}
+
+#forBachelor {
+  left: 139px;
+}
+
+#forMaster {
+  left: 279px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  left: 431px;
+}
+
+#detail {
+  width: 15px;
+  height: 15px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 230px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 0.885em;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+  left: 110%;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.payment,
+.fill_form,
+.result {
+  margin-left: 50px;
+  display: block;
+}
+
+.payment {
+  margin-top: 30px;
+}
+
+h4 {
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+#wallet,
+#fill_form,
+#result {
+  width: 70px;
+  height: 70px;
+  vertical-align: super;
+  margin-right: 30px;
+}
+
+#btn {
+  width: 140px;
+  height: 40px;
+  display: block;
+  margin-left: 105px;
+  margin-top: 25px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  background-color: #3498db;
+  border-radius: 3px;
+  font-family: montserrat;
+  letter-spacing: 0.5px;
+}
+
+.text {
+  width: 900px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+/********** FOOTER ***************/
+
+footer {
+  background: url(../assets/Images/grayBg.jpg) 0 0 no-repeat fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.forOverlay {
+  background-color: rgba(52, 152, 219, 0.9);
+  width: 100%;
+  height: auto;
+}
+
+.footer_info {
+  display: flex;
+}
+
+#Footerlogo {
+  width: 140px;
+  height: auto;
+}
+
+.contact_Us {
+  margin-left: 20px;
+  font-family: montserrat;
+  color: #212121;
+  font-size: 0.889em;
+  margin-top: 20px;
+  flex: 2;
+}
+
+footer h5 {
+  font-family: montserrat;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact_Us span {
+  font-weight: 500;
+}
+
+.Affiliated_By {
+  margin-top: 20px;
+}
+
+.ctevt {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+}
+
+.ctevt figcaption {
+  text-align: center;
+}
+
+.ctevt h5 {
+  margin-bottom: 2px;
+}
+
+.pokharabg {
+  display: inline-block;
+  margin-left: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+#puLogo {
+  margin-left: 40px;
+}
+
+.copyright_social {
+  display: flex;
+  margin-top: 30px;
+}
+
+.copyright_social p {
+  flex: 2;
+  font-size: 0.778em;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.socialMedia_logo {
+  flex: 1;
+  margin-left: 115px;
+}
+
+.socialMedia_logo ul {
+  text-align: left;
+}
+
+.socialMedia_logo li {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.socialMedia_logo p {
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.socialMedia_logo img {
+  width: 30px;
+  height: 30px;
+}
+
+/********** RP for 768px ***************/
+
+@media only screen and (max-width: 768px) {
+  .row {
+    width: 748px;
+  }
+
+  /************** HEADER *******************/
+
+  .second_part p {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  nav {
+    width: auto;
+    height: 41px;
+    position: relative;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    border-bottom: 1px solid white;
+    font-weight: 550;
+    margin: 0;
+    background-color: #3498db;
+  }
+
+  a {
+    color: white;
+  }
+
+  .menu {
+    display: block;
+    width: 40px;
+    height: 34px;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+  }
+
+  /************** SECTION *******************/
+  .toggle_Container {
+    -webkit-transform: translate(177px, 26px);
+    transform: translate(177px, 26px);
+  }
+
+  .payment {
+    margin-top: 60px;
+  }
+
+  .text {
+    width: 592px;
+  }
+}
+
+/********** RP for 425px ***************/
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 400px;
+  }
+
+  /************** HEADER *******************/
+  header p {
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+
+  .top_part {
+    padding-bottom: 0;
+  }
+
+  .forfillForm {
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .top_btn {
+    display: none;
+  }
+
+  #one_logo {
+    width: 140px;
+  }
+
+  .second_part p {
+    margin-top: 4px;
+    font-size: 1.5em;
+  }
+
+  #Lec_pic {
+    width: 100%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  .for_circle {
+    bottom: 23px;
+    left: 145px;
+  }
+
+  .forIconbtn {
+    width: 30px;
+    height: 51px;
+  }
+
+  .btn {
+    display: none;
+    font-size: 0.725em;
+  }
+
+  #btnOne {
+    bottom: 64px;
+    left: 0;
+  }
+
+  .btn_one {
+    top: 37px;
+    left: -57px;
+  }
+
+  .btn_two {
+    top: 37px;
+    left: 319px;
+  }
+
+  #btnTwo {
+    bottom: 64px;
+    right: 0;
+  }
+
+  /****************** SECTION ********************/
+  .toggle_Container {
+    -webkit-transform: translate(3px, 26px);
+    transform: translate(3px, 26px);
+  }
+
+  .forToggling {
+    width: 125px;
+  }
+
+  #forBachelor {
+    left: 125px;
+  }
+
+  #forMaster {
+    left: 250px;
+  }
+
+  .tooltip {
+    left: 383px;
+  }
+
+  .payment,
+  .fill_form,
+  .result {
+    margin-left: 0;
+  }
+
+  #wallet,
+  #fill_form,
+  #result {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text {
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #btn {
+    margin: 25px auto 40px;
+  }
+
+  /************** FOOTER *******************/
+  footer {
+    margin-top: 20px;
+  }
+
+  footer h5 {
+    text-align: center;
+  }
+
+  .footer_info {
+    display: grid;
+    text-align: center;
+  }
+
+  .DivforLogo {
+    display: none;
+  }
+
+  .contact_Us {
+    order: 2;
+  }
+
+  .Affiliated_By {
+    order: 1;
+    margin-left: 50px;
+  }
+
+  .ctevt,
+  .pokharabg {
+    margin-top: 20px;
+  }
+
+  .copyright_social {
+    display: grid;
+  }
+
+  .copyright_social p {
+    margin-top: 0;
+  }
+
+  .copy_right {
+    order: 2;
+  }
+
+  .socialMedia_logo {
+    order: 1;
+    text-align: left;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .socialMedia_logo ul {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .socialMedia_logo li {
+    margin-right: 15px;
+  }
+
+  .socialMedia_logo img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .copy_right p {
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+/********** RP for 375px ***************/
+
+@media only screen and (max-width: 375px) {
+  .row {
+    width: 375px;
+  }
+
+  /************** HEADER *******************/
+  .second_part p {
+    font-size: 1.3em;
+  }
+
+  .toggle_Container {
+    -webkit-transform: translate(10px, 26px);
+    transform: translate(10px, 26px);
+  }
+
+  .forToggling {
+    width: 110px;
+  }
+
+  #forBachelor {
+    left: 110px;
+  }
+
+  #forMaster {
+    left: 220px;
+  }
+
+  .tooltip {
+    left: 339px;
+  }
+
+  .tooltiptext {
+    width: 210px;
+    padding: 0;
+    top: -2px;
+    right: 151%;
+  }
+
+  .tooltiptext::after {
+    top: 31%;
+    right: -4%;
+    margin-top: 0;
+    border-color: transparent transparent transparent black;
+  }
+
+  .Affiliated_By {
+    margin-left: 0;
+  }
+
+  #puLogo {
+    margin-left: 0;
+  }
+
+  .pokharabg {
+    display: block;
+    margin-left: 0;
+  }
+
+  .contact_Us {
+    margin-left: 0;
+  }
+}
+
+/********** RP for 320px ***************/
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 320px;
+  }
+
+  header p {
+    margin-left: 4px;
+    text-transform: capitalize;
+  }
+
+  #one_logo {
+    width: 150px;
+  }
+
+  .second_part p {
+    display: none;
+  }
+
+  .toggle_Container {
+    font-size: 14px;
+  }
+
+  .forToggling {
+    width: 93px;
+  }
+
+  #forBachelor {
+    left: 92px;
+  }
+
+  #forMaster {
+    left: 185px;
+  }
+
+  .tooltip {
+    left: 285px;
+  }
+
+  .tooltiptext {
+    widows: 185px;
+    padding: 3px;
+    top: -3px;
+    right: 0;
+    left: -189px;
+  }
+}

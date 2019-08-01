@@ -1,0 +1,625 @@
+[
+    {
+        "userId":"one",
+        "name":"MR SATISH KARNA",
+        "photo":"",
+        "description":"Hi!! I am satish from Bhalwari, Rupendhi . I have passed out my bachlor from*****  in computer engineering I have been teaching / am teaching / in this college since 2000 AD. Subjects that i am teaching here are : Web Design - I , II , Visual Basic , Computer Networking.THANK YOU !!",
+        "position":"Head of Department(HOD)",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"two",
+        "name":"ER. SUSHIL CHAUDHARY",
+        "photo":"",
+        "description":"Hi !! I am sushil from Butwal, Rupendhi . I have passed out my bachlor from Kathmandu University High School in computer engineering.I have been teaching / am teaching / in this college since ****. Subjects that i am teaching here are Data Structure and Algorithum, Repair Maintanance, Computer Graphics, and so on .THANK YOU !!",
+        "position":"Lecture",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"three",
+        "name":"ER. RANJIT KASARI ",
+        "photo":"",
+        "description":"Hi !! I am ranjit from Butwal, Rupendhi . I have passed out my bachlor from ***** in computer engineering. I have been teaching / am teaching / in this college since ****. Subjects that i am teaching here are :Computer Architecture, Operating System and so on .THANK YOU !!",
+        "position":"Asst . Lecture",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"four",
+        "name":"ER. SUMAN KAFLA",
+        "photo":"",
+        "description":"Hi !! I am suman from tansen, palpa . I have passed my bachlor degree from insitute of engineering dharana . I have been teaching / am teaching / in this college since 2018AD. Subject that i am teching here are :C Programmming, C++, Distributed Processing,  .THANK YOU !! ",
+        "position":"Asst . Lecture",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"five",
+        "name":"MRS. CHANCHALA SHARMA",
+        "photo":"",
+        "description":"Hi !! I am chanchala from Butwal, Rupendhi . I have passed my ***************. I have been teaching / am teaching / and hepled as lab assistance(i.e computer department) in this college since ****. Subject that i am teching here is : *********.THANK YOU !!  ",
+        "position":"Asst . Lecture",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"six",
+        "name":"MR. DEV NARYAN CHAUDARY",
+        "photo":"",
+        "description":"Hi !! I am dev naryan from Butwal, Rupendhi . I have passed my ***************. I have hepled as lab assistance(i.e in computer department) in this college since ****. Subject that i am teching here is : *********.THANK YOU !!  ",
+        "position":"Lab Incharge",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"seven",
+        "name":"MR. HARI BHATTARI",
+        "photo":"",
+        "description":"Hi !! I am hari from Butwal, Rupendhi . I have passed my ***************. I have been teaching / am teaching / and hepled as lab assistance(i.e computer department) in this college since ****. Subject that i am teching here is : *********.THANK YOU !!  ",
+        "position":"Lab Asst",
+        "facebook_Link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"eight",
+        "name":"ER. BIMAL ARYAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Head of Department(HOD) Civil",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+
+    },
+    {
+        "userId":"nine",
+        "name":"ER. YADAV NEPAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"ten",
+        "name":"ER. SANDEEP REGMI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"eleven",
+        "name":"ER.BIKAS MUDBHARI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twelve",
+        "name":"ER JEEVAN GAIRA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst . Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirteen ",
+        "name":"ER. DHARMA RAJ BHUSAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourteen",
+        "name":"ER SHANKAR PARSAD PANDAY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+
+    },
+    {
+        "userId":"fifteen",
+        "name":"ER. SANTOSH PANDAY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"sixteen",
+        "name":"ER.SOVIT GURUNG",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst.Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"seventeen",
+        "name":"ER. ROCKEY SHRESTHA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"eighteen",
+        "name":"GRIJESH CHAUDARY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"nineteen",
+        "name":"ER. ARBIN NEUPANE", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twenty",
+        "name":"ER. ROSHAN ADHIKARI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyOne",
+        "name":"ER. ANIL SHARMA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyTwo",
+        "name":"ER. BISHAL SAPKOTA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyThree",
+        "name":"MR. SHOVAKANTA NEUPANE", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lab. Instructure",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyFour",
+        "name":"MR. BABURAM BASHYAL", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lab. Asst",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyFive",
+        "name":"MR. BIKAS PANT", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lab. Asst",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentySix ",
+        "name":"MR. ANKIT SUBEDI", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lab. Asst",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentySeven",
+        "name":"ER. RAJ KAPOOOR SHAH", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Ass. Professor",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyEight",
+        "name":"ER BISHNU CHANDRA JHA", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst . Ass. Professor",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"twentyNine",
+        "name":"ER. SAROJ MANDAL", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Professor",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirty",
+        "name":"MR.GOAPL PANDAY", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Tech. Asst",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyOne",
+        "name":"ER. PANKAJ THAKUR",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Head Of Department Electrical",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyTwo",
+        "name":"ER. SUPARNA B. C.", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyThree",
+        "name":"MR. NARENDRA BDR THARU", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lab. Asst",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyFour",
+        "name":"MR. HIM LAL PANDAY", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Electrican",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyFive",
+        "name":"MR. TAM LAL KHANAL", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtySix",
+        "name":"MR. MUKUNDA ACHARYA", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtySeven",
+        "name":"MR. POM BDR THAPA",
+         "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyEight",
+        "name":"MR. RAJENDRA RAUT", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"thirtyNine",
+        "name":"YADAB LUMAR KARKI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourty",
+        "name":"MR. CHET NARYAN PANTHI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyOne",
+        "name":"MR. KHADANADA SHARMA ",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyTwo",
+        "name":"MRS. ANITA BHATTARI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyThree",
+        "name":"MRS. BINA PANDAY", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyFour",
+        "name":"MR. BIKAS SHARMA BHUSAL", 
+        "photo":"",
+        "description":"Sed ut perspiciatiSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugits unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Asst. Lecture",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyFive ",
+        "name":"DR. K. N. PANDAY", 
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Member Secretary",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtySix",
+        "name":"ER. SHIVA RAJ BARAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Principal",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtySeven",
+        "name":"NARAYAN DHAKAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Administrator",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyEight",
+        "name":"BHISHMAN GYAWALI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Accountant",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fourtyNine",
+        "name":"SUSHILA UPADHAYAY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Librarian",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fifty",
+        "name":"PITAMBER ACHARYA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Senior Office Assistant",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyOne",
+        "name":"JEEVAN CHAUDARY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Office Asst.",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyTwo",
+        "name":"DIL SINGH THAPA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Libraian",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyThree",
+        "name":"SABITA NEUPANE",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Computer Operator",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyFour",
+        "name":"POST RAJ PANTH",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Driver",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyFive",
+        "name":"DINESH DHAKAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Driver",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftySix",
+        "name":"HARKA BDR KHAMCHA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Head Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftySeven",
+        "name":"CHANDA MANI POUDLE",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyEight",
+        "name":"BHANU POKHARAL",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"fiftyNine",
+        "name":"JIBAN PANTHI",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"sixty",
+        "name":"SUMIL CHAUDARY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"sixtyOne",
+        "name":"MIRMALA CHAUDARY",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Peon",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    },
+    {
+        "userId":"sixtyTwo",
+        "name":"TULSI MAYA KHAMCHA",
+        "photo":"",
+        "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+        "position":"Helper",
+        "facebook link":"",
+        "twitter_Link":"",
+        "linkedin_Link":""
+    }
+
+]
