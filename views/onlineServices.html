@@ -12,137 +12,159 @@
 <body>
 
     <header>
-        <div class="top_part">
+
+        <div class="header__container">
+
             <div class="row">
-                <p>Admissions are open now for diploma<br>
-                    <a href="#" class="forfillForm">Fill Form / Learn More</a>
-                </p>
-                <a href="#" class="btn" id="btn-1">Learn More</a>
-                <a href="#" class="btn" id="btn-2">Fill Form</a>
+                <p class="header__text">Admissions are open now for diploma </p>
+                <div class="header__buttonContainer">
+                    <a href="#" class="btn btn--blue">Learn More</a>
+                    <a href="#" class="btn btn--lightBlue">Fill Form</a>
+                </div>
             </div>
+
         </div>
 
-        <div class="row">
-            <div class="second_part">
-                <img src="../assets/Images/SecondLogo.png" alt="LEC" id="one_logo" />
-                <p>
-                    <span style="font-family:Georgia">“</span>Education for
-                    excellence<span style="font-family:Georgia">”</span>
+        <div class="header-second__container">
+            <div class="row">
+                <img src="../assets/Images/SecondLogo.png" alt="LEC" id="header_logo" />
+                <p class="header-second__text">
+                    <span class="header-second__inlineText">“</span>Education for
+                    excellence<span class="header-second__inlineText">”</span>
                 </p>
             </div>
+
         </div>
 
         <nav>
             <div class="row">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./AboutLec.html">About lec</a></li>
-                    <li><a href="./Department.html">department</a></li>
-                    <li><a href="#">Academic achievement</a></li>
-                    <li><a href="./onlineServices.html">online services</a></li>
-                    <li><a href="./contact_us.html">Contact us</a></li>
+                <ul class="header-nav__items">
+                    <li><a class="header-nav__link" href="../index.html">Home</a></li>
+                    <li><a class="header-nav__link" href="./AboutLec.html">About lec</a></li>
+                    <li><a class="header-nav__link" href="./Department.html">department</a></li>
+                    <li><a class="header-nav__link" href="#">Academic achievement</a></li>
+                    <li><a class="header-nav__link" href="./onlineServices.html">online services</a></li>
+                    <li><a class="header-nav__link" href="./contact_us.html">Contact us</a></li>
                 </ul>
             </div>
-            <img src="../assets/Images/menu.svg" class="menu" alt="menu">
+            <img src="../assets/Images/menu.svg" class="menu" alt="menu" />
         </nav>
+
     </header>
 
     <section>
         <div class="row">
 
-            <div class="toggle_Container">
-                <span class="forToggling forActive" id="forDiploma">Diploma</span>
-                <span class="forToggling" id="forBachelor">Bachelor</span>
-                <span class="forToggling" id="forMaster"> Master</span>
+            <div class="toggle">
+                <span class="toggle__container toggle--active" id="diploma">Diploma</span>
+                <span class="toggle__container" id="bachelor">Bachelor</span>
+                <span class="toggle__container" id="master"> Master</span>
 
                 <div class="tooltip">
-                    <img src="../assets/Images/info.svg" id="detail" alt="Choose your Level">
-                    <span class="tooltiptext">Please choose your level</span>
+                    <img src="../assets/Images/info.svg" id="tooltip__icon" alt="Choose your Level">
+                    <span class="tooltip__text">Please choose your level</span>
                 </div>
 
             </div>
 
-            <div class="payment">
-                <img src="../assets/Images/wallet.svg" alt="payment" id="wallet">
-                <div class="text">
-                    <h4>Payment</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
+            <div class="feature">
+
+                <div class="feature__container">
+                    <img src="../assets/Images/wallet.svg" alt="payment" class="feature__icon">
+                    <div class="feature__text">
+                        <h4 class="feature__title">Payment</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <input type="button" class="btn btn--large" value="Pay now">
                 </div>
-                <input type="button" class="btn_payment" id="btn" value="Pay now">
-            </div>
-            <div class="fill_form">
-                <img src="../assets/Images/checklist.svg" alt="Form" id="fill_form">
-                <div class="text">
-                    <h4>Fill Form</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
+
+                <div class="feature__container">
+                    <img src="../assets/Images/checklist.svg" alt="Form" class="feature__icon">
+                    <div class="feature__text">
+                        <h4 class="feature__title">Fill Form</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <input type="button" class="btn btn--large" value="Fill Form">
                 </div>
-                <input type="button" class="btn_fill_form" id="btn" value="Fill Form">
-            </div>
-            <div class="result">
-                <img src="../assets/Images/test.svg" alt="Result" id="result">
-                <div class="text">
-                    <h4>Check the results</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
+
+                <div class="feature__container">
+                    <img src="../assets/Images/test.svg" alt="Result" class="feature__icon">
+                    <div class="feature__text">
+                        <h4 class="feature__title">Check the results</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                    <input type="button" class="btn btn--large" value="Results">
                 </div>
-                <input type="button" class="btn_results" id="btn" value="Results">
             </div>
+
         </div>
     </section>
 
     <footer>
-        <div class="forOverlay">
+        <div class="footer__overlay">
             <div class="row">
 
-                <div class="footer_info">
-                    <div class="DivforLogo">
+                <div class="footer__container">
+
+                    <div>
                         <img src="../assets/Images/VideoLogo.png" alt="LEC" id="Footerlogo" />
                     </div>
-                    <div class="contact_Us">
-                        <h5>Contact Us:</h5>
-                        <p><span style="text-transform:uppercase">Lumbini Engineering College</span>
+
+                    <div class="contact__container">
+                        <h5 class="contact__title">Contact Us:</h5>
+                        <p><span class="contact__text">Lumbini Engineering College</span>
                             <br>Bhalwari , Rupandehi , Nepal<br>
                             Tel: 074-54564080,54562200<br>Lumbini011@Outlook.com</p>
                     </div>
-                    <div class="Affiliated_By">
-                        <h5>Affiliated By:</h5>
-                        <div class="ctevt">
+
+                    <div class="affiliated__container">
+                        <h5 class="affiliated__title">Affiliated By:</h5>
+                        <div class="ctevt__container">
                             <img src="../assets/Images/ctevtlogo.gif" id="ctevtLogo">
-                            <figcaption>CTEVT</figcaption>
+                            <figcaption class="ctevt__caption">CTEVT</figcaption>
                         </div>
-                        <div class="pokharabg">
+                        <div class="pokhara__container">
                             <img src="../assets/Images/PULogo1.png" id="puLogo">
                             <figcaption>POKHARA UNIVERSITY </figcaption>
                         </div>
                     </div>
+
                 </div>
 
-                <div class="copyright_social">
+                <div class="footer__container">
 
-                    <p>&copy;Copyright Reserved to Lumbini Engineering College</p>
+                    <div class="copyright__container">
+                        <p class="copyright__text">&copy;Copyright Reserved to Lumbini Engineering College</p>
+                    </div>
 
-                    <div class="socialMedia_logo">
-                        <p>Connect with Us:</p>
+                    <div class="socialmedia__container">
+                        <p class="socialmedia__title">Connect with Us:</p>
                         <ul>
-                            <li><a href="#"><img src="../assets/Images/facebook.svg" alt="facebook" id="fb"></a></li>
-                            <li><a href="#"><img src="../assets/Images/twitter.svg" alt="twitter" id="Twitter"></a></li>
+                            <li><a href="#"><img src="../assets/Images/facebook.svg" alt="facebook"
+                                        class="socialIcon"></a>
+                            </li>
+                            <li><a href="#"><img src="../assets/Images/twitter.svg" alt="twitter"
+                                        class="socialIcon"></a>
+                            </li>
                             <li><a href="#"><img src="../assets/Images/google-plus.svg" alt="Google Plus"
-                                        id="google_plus"></a></li>
+                                        class="socialIcon"></a></li>
                         </ul>
                     </div>
                 </div>
 
-                <p style="text-align:center;font-size:0.888em;margin-top:20px;">Powered By:<a href="#"
-                        style="color: white;font-weight: 600;text-decoration: none">Jumbo
-                        Gang</a></p>
+                <p class="footer__text">
+                    Powered By:
+                    <a href="#" class="footer__link">Jumbo Gang</a>
+                </p>
             </div>
         </div>
     </footer>

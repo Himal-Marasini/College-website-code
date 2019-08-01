@@ -12,59 +12,71 @@
 <body>
 
     <header>
-        <div class="top_part">
+
+        <div class="header__container">
+
             <div class="row">
-                <p>Admissions are open now for diploma<br>
-                    <a href="#" class="forfillForm">Fill Form / Learn More</a>
-                </p>
-                <a href="#" class="btn" id="btn-1">Learn More</a>
-                <a href="#" class="btn" id="btn-2">Fill Form</a>
+                <p class="header__text">Admissions are open now for diploma </p>
+                <div class="header__buttonContainer">
+                    <a href="#" class="btn btn--blue">Learn More</a>
+                    <a href="#" class="btn btn--lightBlue">Fill Form</a>
+                </div>
             </div>
+
         </div>
 
-        <div class="row">
-            <div class="second_part">
-                <img src="../assets/Images/SecondLogo.png" alt="LEC" id="one_logo" />
-                <p>
-                    <span style="font-family:Georgia">“</span>Education for
-                    excellence<span style="font-family:Georgia">”</span>
+        <div class="header-second__container">
+            <div class="row">
+                <img src="../assets/Images/SecondLogo.png" alt="LEC" id="header_logo" />
+                <p class="header-second__text">
+                    <span class="header-second__inlineText">“</span>Education for
+                    excellence<span class="header-second__inlineText">”</span>
                 </p>
             </div>
+
         </div>
 
         <nav>
             <div class="row">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="./AboutLec.html">About lec</a></li>
-                    <li><a href="./Department.html">department</a></li>
-                    <li><a href="#">Academic achievement</a></li>
-                    <li><a href="./onlineServices.html">online services</a></li>
-                    <li><a href="./contact_us.html">Contact us</a></li>
+                <ul class="header-nav__items">
+                    <li><a class="header-nav__link" href="../index.html">Home</a></li>
+                    <li><a class="header-nav__link" href="./AboutLec.html">About lec</a></li>
+                    <li><a class="header-nav__link" href="./Department.html">department</a></li>
+                    <li><a class="header-nav__link" href="#">Academic achievement</a></li>
+                    <li><a class="header-nav__link" href="./onlineServices.html">online services</a></li>
+                    <li><a class="header-nav__link" href="./contact_us.html">Contact us</a></li>
                 </ul>
             </div>
-            <img src="../assets/Images/menu.svg" class="menu" alt="menu">
+            <img src="../assets/Images/menu.svg" class="menu" alt="menu" />
         </nav>
+
     </header>
 
     <section>
         <div class="row">
-            <div class="contact_us">
-                <p style="font-weight: 500;">LUMBINI ENGINEERING COLLEGE</p>
-                <p>Bhalwari, Rupandehi, Nepal<br><span>TEL :</span>074-54564080 , 54562200<br>
-                    <span>e-mail :</span>Lumbini011@outlook.com<br><span>Connect with us :</span>
-                    <span class="for_icon">
-                        <a href="#"><img src="../assets/Images/facebook.svg" alt="facebook" id="fb"></a>
-                        <a href="#"><img src="../assets/Images/twitter.svg" alt="twitter" id="Twitter"></a>
-                        <a href="#"><img src="../assets/Images/googlePlus.svg" alt="Google Plus" id="google_plus"></a>
+
+            <div class="contact-us">
+                <p class="contact-us__title">LUMBINI ENGINEERING COLLEGE</p>
+                <p class="contact-us__text">Bhalwari, Rupandehi, Nepal<br>
+                    <span class="contact-us__subtitle">TEL :</span>074-54564080 , 54562200<br>
+                    <span class="contact-us__subtitle">e-mail :</span>Lumbini011@outlook.com<br>
+                    <span class="contact-us__subtitle">Connect with us :</span>
+                    <span class="contact-us__icon-container">
+                        <a href="#"><img src="../assets/Images/facebook.svg" alt="facebook"
+                                class="contact-us__icon"></a>
+                        <a href="#"><img src="../assets/Images/twitter.svg" alt="twitter" class="contact-us__icon"></a>
+                        <a href="#"><img src="../assets/Images/google-plus.svg" alt="Google Plus"
+                                class="contact-us__icon"></a>
                     </span>
                 </p>
             </div>
+
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20587.198282847738!2d83.46547710804671!3d27.60183586428097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399684de6af3c30d%3A0x9895a37f3948af3e!2sLumbini+Engineering+College!5e0!3m2!1sen!2snp!4v1549942154375"
                     width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+
         </div>
     </section>
 
@@ -72,28 +84,30 @@
         <div class="forOverlay">
             <div class="row">
 
-                <div class="footer_info">
-                    <div class="copyright_social">
-                        <p>&copy;Copyright Reserved to Lumbini Engineering College</p>
+                <div class="footer__container">
+                    <div class="footer__copyright-container">
+                        <p class="footer__copyright-container__text">&copy;Copyright Reserved to Lumbini Engineering
+                            College</p>
                     </div>
-                    <div class="Affiliated_By">
-                        <h5>Affiliated By:</h5>
-                        <div class="ctevt">
-                            <img src="../assets/Images/ctevtlogo.gif" id="ctevtLogo">
+
+                    <div class="footer__affiliated-container">
+                        <h5 class="footer__affiliated-container__subtitle">Affiliated By:</h5>
+
+                        <div class="footer__ctevt-container">
+                            <img src="../assets/Images/ctevtlogo.gif" id="footer__ctevt-logo">
                             <figcaption>CTEVT</figcaption>
                         </div>
-                        <div class="pokharabg">
-                            <img src="../assets/Images/PULogo1.png" id="puLogo">
+
+                        <div class="footer__pokhara-container pokharabg">
+                            <img src="../assets/Images/PULogo1.png" class="footer__pokhara-logo">
                             <figcaption>POKHARA UNIVERSITY </figcaption>
                         </div>
-                    </div>
-                    <div class="copyright_social_responsive">
-                        <p>&copy;Copyright Reserved to Lumbini Engineering College</p>
+
                     </div>
                 </div>
 
-                <p style="text-align:center;font-size:0.888em;margin-top:20px">
-                    Powered By:<a href="#" style="color: white;font-weight: 600;text-decoration: none;">Jumbo Gang</a>
+                <p class="footer__text">
+                    Powered By:<a class="footer__link" href="#">Jumbo Gang</a>
             </div>
         </div>
     </footer>

@@ -5,9 +5,6 @@ const angle_right = document.querySelector(".angle_right");
 const diploma_box = document.querySelector(".forDiploma");
 const bachelor_box = document.querySelector(".forBachelor");
 const master_box = document.querySelector(".forMaster");
-const first_activity = document.querySelector(".first_activity");
-const second_activity = document.querySelector(".second_activity");
-const third_activity = document.querySelector(".third_activity");
 const navlist = document.querySelector(".headerNav");
 const menu = document.querySelector(".menu");
 
@@ -28,31 +25,6 @@ if (screen.width <= 768) {
     }
   });
 }
-
-first_activity.addEventListener("mouseenter", () => {
-  const image = document.getElementById("first_coCurricular");
-  image.style.transform = "scale(1.9)";
-});
-first_activity.addEventListener("mouseleave", () => {
-  const image = document.getElementById("first_coCurricular");
-  image.style.transform = "scale(1)";
-});
-second_activity.addEventListener("mouseenter", () => {
-  const image = document.getElementById("Second_coCurricular");
-  image.style.transform = "scale(1.9)";
-});
-second_activity.addEventListener("mouseleave", () => {
-  const image = document.getElementById("Second_coCurricular");
-  image.style.transform = "scale(1)";
-});
-third_activity.addEventListener("mouseenter", () => {
-  const image = document.getElementById("Third_coCurricular");
-  image.style.transform = "scale(1.9)";
-});
-third_activity.addEventListener("mouseleave", () => {
-  const image = document.getElementById("Third_coCurricular");
-  image.style.transform = "scale(1)";
-});
 
 if (screen.width === 375) {
   right_arrow.addEventListener("click", () => {

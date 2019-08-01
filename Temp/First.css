@@ -6,9 +6,9 @@
 
 html {
   font-family: Raleway;
-  font-size: 1.125em;
+  font-size: 16px;
   letter-spacing: 0.04em;
-  line-height: 36px;
+  line-height: 2.25em;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
@@ -61,7 +61,7 @@ header {
   padding-bottom: 10px;
 }
 
-header p {
+.header__text {
   display: inline-block;
   text-transform: uppercase;
   padding-top: 10px;
@@ -73,28 +73,32 @@ header p {
   color: black;
 }
 
-.btn {
+.header__buttonContainer {
   float: right;
   font-size: 0.889em;
-  width: 144px;
-  height: 40px;
-  color: #212121;
-  text-align: center;
+
   text-transform: uppercase;
-  padding-top: 4px;
-  margin-top: 7px;
-  display: block;
   font-weight: 600;
 }
 
-#btn-1 {
+.btn {
+  width: 144px;
+  height: 40px;
+  text-align: center;
+  padding-top: 4px;
+  margin-top: 7px;
+  display: inline-block;
+}
+
+.btn--blue {
   background-color: #0288d1;
   color: white;
 }
 
-#btn-2 {
+.btn--lightBlue {
   margin-right: 15px;
   background-color: #b3e5fc;
+  color: #212121;
 }
 
 .menu {
@@ -121,11 +125,18 @@ main .row {
   z-index: 3;
 }
 
-main a:hover {
+nav {
+  float: right;
+  clear: both;
+  padding-top: 40px;
+  font-size: 0.889em;
+}
+
+.main__link:hover {
   color: #0288d1;
 }
 
-.forOverlay_video {
+.main__forOverlay {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 470px;
@@ -141,7 +152,7 @@ video {
   position: absolute;
 }
 
-main p {
+.main__title {
   color: white;
   text-align: center;
   margin-top: 40px;
@@ -155,20 +166,13 @@ main p {
   transform: translate(-17px, -22px);
 }
 
-.headerNav {
-  float: right;
-  clear: both;
-  padding-top: 40px;
-  font-size: 0.889em;
-}
-
 /********** SECTION ***************/
 
-.message_update {
+section {
   margin-top: 30px;
 }
 
-.Princ_message {
+.principleMessage {
   width: 65%;
   height: 350px;
   background-color: red;
@@ -185,12 +189,20 @@ main p {
   border-radius: 4px;
 }
 
-.updates h5 {
+.updates__title {
   text-align: center;
   padding-top: 20px;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1em;
+}
+
+.updates__list {
+  font-size: 0.778em;
+  line-height: 28px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  display: list-item;
 }
 
 .newsReading {
@@ -207,17 +219,6 @@ main p {
   margin-top: 20px;
   vertical-align: bottom;
   margin-right: 13px;
-}
-
-.updates ul {
-  font-size: 0.778em;
-  line-height: 28px;
-  width: 100%;
-}
-
-.updates li {
-  margin: 10px 0 0 0;
-  display: list-item;
 }
 
 /********** SECTION : COURSE WE OFFER ***************/
@@ -391,13 +392,13 @@ figure p {
 
 /********** SECTION : Co-Curricular activities ***************/
 
-.forCoCurricularLogo {
+.curricular__logo {
   margin: 0 auto;
   text-align: center;
   position: relative;
 }
 
-.forCoCurricularLogo p {
+.curricular__title {
   position: absolute;
   -webkit-transform: translate(209%, 160%);
   transform: translate(209%, 160%);
@@ -410,26 +411,23 @@ figure p {
   height: auto;
 }
 
-.co_activities {
+.cocurricular-Activities {
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
 }
 
-.first_activity {
+.cocurricular-Activities__container {
   flex-basis: 300px;
   height: auto;
   border: 2px solid #3498db;
 }
 
-.imagecoCurricular_container {
-  width: 300px;
-  height: auto;
+.cocurricular-Activities__imageContainer {
   overflow: hidden;
-  margin: 0 auto;
 }
 
-.same img {
+.cocurricular-Activities__image {
   width: 200px;
   height: auto;
   margin-left: 47px;
@@ -439,50 +437,24 @@ figure p {
   transition: transform 900ms linear, -webkit-transform 900ms linear;
 }
 
-.same h5 {
+.cocurricular-Activities__image:hover {
+  -webkit-transform: scale(1.9);
+  transform: scale(1.9);
+}
+
+.cocurricular-Activities__title {
   font-weight: 500;
   font-size: 1em;
   margin-left: 20px;
 }
 
-.same p {
+.cocurricular-Activities__text {
   font-size: 0.889em;
   margin-left: 20px;
 }
 
-#Second_coCurricular {
-  height: 120px;
-}
-
-.second_activity {
-  flex-basis: 300px;
-  height: auto;
-  border: 2px solid #3498db;
-}
-
-.third_activity {
-  flex-basis: 300px;
-  height: auto;
-  border: 2px solid #3498db;
-}
-
-#Third_coCurricular {
-  height: 120px;
-}
-
-.forco_Icon {
-  text-align: right;
-  margin-top: 30px;
-  display: none;
-}
-
-.forco_Icon span {
-  width: 30px;
-  height: 20px;
-  background: #212121;
-  cursor: pointer;
-  font-size: 1.333em;
-  color: white;
+.image--height {
+  height: 148px;
 }
 
 .angle_left {
@@ -504,13 +476,13 @@ footer {
   margin-top: 40px;
 }
 
-.forOverlay {
+.footer__overlay {
   background-color: rgba(52, 152, 219, 0.9);
   width: 100%;
   height: auto;
 }
 
-.footer_info {
+.footer__container {
   display: flex;
 }
 
@@ -519,7 +491,7 @@ footer {
   height: auto;
 }
 
-.contact_Us {
+.contact__container {
   margin-left: 20px;
   font-family: montserrat;
   color: #212121;
@@ -528,35 +500,33 @@ footer {
   flex: 2;
 }
 
-footer h5 {
+.contact__title,
+.affiliated__title {
   font-family: montserrat;
   font-size: 1em;
   font-weight: 600;
 }
 
-.contact_Us span {
+.contact__text {
   font-weight: 500;
+  text-transform: uppercase
 }
 
-.Affiliated_By {
+.affiliated__container {
   margin-top: 20px;
 }
 
-.ctevt {
+.ctevt__container {
   display: inline-block;
   color: white;
   font-weight: 600;
 }
 
-.ctevt figcaption {
+.ctevt__caption {
   text-align: center;
 }
 
-.ctevt h5 {
-  margin-bottom: 2px;
-}
-
-.pokharabg {
+.pokhara__container {
   display: inline-block;
   margin-left: 30px;
   color: white;
@@ -567,38 +537,43 @@ footer h5 {
   margin-left: 40px;
 }
 
-.copyright_social {
-  display: flex;
-  margin-top: 30px;
-}
-
-.copy_right {
+.copyright__container {
   flex: 2;
 }
 
-.copy_right p {
+.copyright__text {
   flex: 2;
-  font-size: 0.778em;
+  font-size: 0.920em;
   margin-top: 30px;
   margin-left: 20px;
   font-weight: 400;
 }
 
-.socialMedia_logo {
+.socialmedia__container {
   flex: 1;
   margin-left: 115px;
 }
 
-.socialMedia_logo p {
+.socialmedia__title {
   font-weight: 600;
   font-size: 1em;
-  margin-left: 0;
-  margin-top: 0;
 }
 
-.socialMedia_logo img {
+.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+.footer__text {
+  text-align: center;
+  font-size: 0.888em;
+  margin-top: 20px
+}
+
+.footer__link {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /********** RP for 960px ***************/

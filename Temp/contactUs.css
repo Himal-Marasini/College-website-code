@@ -49,68 +49,81 @@ li {
 
 /********** HEADER ***************/
 
-header p {
-  display: inline-block;
-  text-transform: uppercase;
-  padding-top: 10px;
-  color: white;
-}
-
-header a {
-  text-decoration: none;
-}
-
-.btn {
-  float: right;
-  font-size: 0.889em;
-  width: 144px;
-  height: 40px;
-  color: #212121;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 4px;
-  font-weight: 600;
-}
-
-#btn-1 {
-  margin-top: 8px;
-  background-color: #0288d1;
-  color: white;
-}
-
-#btn-2 {
-  margin-right: 15px;
-  margin-top: 8px;
-  background-color: #b3e5fc;
-}
-
-.top_part {
+.header__container {
   width: 100%;
   height: auto;
   background-color: #757575;
   padding-bottom: 10px;
 }
 
-.forfillForm {
-  display: none;
+.header__text {
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: white;
+  display: inline-block;
 }
 
-.second_part {
-  margin-top: 10px;
+.header__buttonContainer {
+  float: right;
+  font-size: 0.889em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-.second_part p {
+#header_logo {
+  width: 12.5em;
+}
+
+.btn {
+  width: 9em;
+  height: 2.5em;
+  text-align: center;
+  padding-top: 0.1em;
+  margin-top: 0.438em;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn--blue {
+  margin-top: 0.5em;
+  background-color: #0288d1;
+  color: white;
+}
+
+.btn--lightBlue {
+  margin-right: 0.938em;
+  margin-top: 0.5em;
+  background-color: #b3e5fc;
+  color: #212121;
+}
+
+.header-second__container {
+  margin-top: 0.625em;
+}
+
+.header-second__text {
   color: #3498db;
   text-transform: capitalize;
   float: right;
-  margin-top: 30px;
-  margin-right: 80px;
+  margin-top: 0.625em;
+  margin-right: 5em;
   font-family: Dancing Script;
   font-size: 2.353em;
 }
 
-#one_logo {
-  width: 200px;
+.header-second__inlineText {
+  font-family: Georgia;
+}
+
+.header-nav__link {
+  text-decoration: none;
+}
+
+.header-nav__items {
+  display: block;
 }
 
 .menu {
@@ -119,21 +132,26 @@ header a {
 
 /********** SECTION ***************/
 
-.contact_us {
+.contact-us {
   margin-top: 50px;
   display: inline-block;
 }
 
-p {
+.contact-us__title {
+  color: #212121;
+  font-weight: 600;
+}
+
+.contact-us__text {
   color: #212121;
 }
 
-span {
+.contact-us__subtitle {
   text-transform: uppercase;
   font-weight: 550;
 }
 
-.for_icon img {
+.contact-us__icon {
   width: 30px;
   height: 30px;
   vertical-align: middle;
@@ -154,75 +172,69 @@ footer {
   margin-top: 140px;
 }
 
-.forOverlay {
-  background-color: rgba(52, 152, 219, 0.9);
-  width: 100%;
-  height: auto;
-}
-
-.footer_info {
+.footer__container {
   display: flex;
 }
 
-#Footerlogo {
-  width: 140px;
-  height: auto;
+.footer__text {
+  text-align: center;
+  font-size: 0.888em;
+  margin-top: 20px
 }
 
-footer h5 {
+.footer__link {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer__copyright-container {
+  flex-basis: 65%;
+  margin-top: 30px;
+}
+
+.footer__copyright-container__text {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.footer__affiliated-container__subtitle {
   font-family: montserrat;
   font-size: 1em;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.Affiliated_By {
+.footer__affiliated-container {
   margin-top: 10px;
 }
 
-.Affiliated_By img {
-  height: 58px;
-  width: auto;
-}
-
-.ctevt {
+.footer__ctevt-container {
   display: inline-block;
   color: white;
   font-weight: 600;
 }
 
-.ctevt figcaption {
+figcaption {
   text-align: center;
 }
 
-.ctevt h5 {
-  margin-bottom: 2px;
-}
-
-.pokharabg {
+.footer__pokhara-container {
   display: inline-block;
   margin-left: 30px;
   color: white;
   font-weight: 600;
 }
 
-#puLogo {
+.footer__pokhara-logo {
   margin-left: 40px;
 }
 
-.copyright_social {
-  flex-basis: 65%;
-  margin-top: 30px;
-}
-
-.copyright_social p {
-  margin-top: 50px;
-  margin-left: 20px;
-  font-weight: 500;
-}
-
-.copyright_social_responsive {
-  display: none;
+.forOverlay {
+  background-color: rgba(52, 152, 219, 0.9);
+  width: 100%;
+  height: auto;
 }
 
 /********** RP for 768px ***************/
@@ -271,17 +283,14 @@ footer h5 {
     right: 7px;
     display: block;
   }
-
   .copyright_social {
     order: 2;
     flex-basis: 50%;
   }
-
   .Affiliated_By {
     order: 1;
     text-align: center;
   }
-
   .ctevt {
     margin-left: 40px;
   }
@@ -368,29 +377,23 @@ footer h5 {
     bottom: 64px;
     right: 0;
   }
-
   .contact_us {
     margin-top: 20px;
     display: block;
     text-align: center;
   }
-
   .map {
     float: none;
   }
-
   .footer_info {
     display: block;
   }
-
   footer {
     margin-top: 30px;
   }
-
   .copyright_social {
     display: none;
   }
-
   .copyright_social_responsive {
     font-size: 0.778em;
     margin-top: 30px;
@@ -431,11 +434,9 @@ footer h5 {
   #one_logo {
     width: 150px;
   }
-
   .second_part p {
     display: none;
   }
-
   .ctevt {
     margin-left: 20px;
   }
