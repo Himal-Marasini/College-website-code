@@ -1,4 +1,4 @@
-.container {
+.section__container-image {
   position: relative;
   width: auto;
   height: 40%;
@@ -6,28 +6,7 @@
   margin: 1.875em auto 0 auto;
 }
 
-.arrow {
-  font-size: 1.833em;
-  color: #fff;
-}
-
-.btn_one {
-  position: absolute;
-  top: 9.938em;
-  left: 3.438em;
-  opacity: 0.3;
-  transition: opacity 100ms linear;
-}
-
-.btn_two {
-  position: absolute;
-  top: 9.938em;
-  left: 66.563em;
-  opacity: 0.3;
-  transition: opacity 100ms linear;
-}
-
-.forIconbtn {
+.icon__container {
   display: inline-block;
   width: 3.188em;
   height: 5em;
@@ -36,22 +15,42 @@
   opacity: 0.7;
 }
 
-#btnOne {
+.icon--left-container {
   bottom: 9em;
   left: 2.438em;
 }
 
-#btnTwo {
+.icon--left-arrow {
+
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  position: absolute;
+  top: 26px;
+  left: 10px;
+  font-size: 1.833em;
+  color: #fff;
+}
+
+.icon--right-container {
   bottom: 9.063em;
   right: 2.5em;
 }
 
-.btn_two:hover,
-.btn_one:hover {
+.icon--right-arrow {
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.icon--left-arrow:hover,
+.icon--right-arrow:hover {
   opacity: 1;
 }
 
-.for_circle {
+.section__toggle-container {
   position: absolute;
   bottom: 2.25em;
   left: 31.375em;
@@ -65,25 +64,14 @@
   display: inline-block;
 }
 
-.dottoggle {
+.toggle--active {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.lol {
-  width: 100%;
-  height: 100%;
-}
 
-#Lec_pic {
+.image__container {
   width: 93%;
   height: 30%;
   margin: 1.875em auto;
   display: block;
-}
-
-.img_container {
-  width: auto;
-  height: 30%;
-  display: block;
-  margin: 0 auto;
 }

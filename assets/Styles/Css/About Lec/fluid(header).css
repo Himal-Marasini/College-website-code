@@ -31,6 +31,9 @@
   margin-top: 0.438em;
   display: inline-block;
   text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 
 .btn--blue {
@@ -55,7 +58,7 @@
   text-transform: capitalize;
   float: right;
   margin-top: 0.625em;
-  margin-right: 5em;
+  /* margin-right: 5em; */
   font-family: Dancing Script;
   font-size: 2.353em;
 }
@@ -79,6 +82,7 @@
 .header-nav__items {
   display: inline-block;
   margin-left: 68px;
+  margin-right: 0;
 }
 
 .menu {
