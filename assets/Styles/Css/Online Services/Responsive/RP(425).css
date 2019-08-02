@@ -1,0 +1,198 @@
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 400px;
+  }
+
+  /************** HEADER *******************/
+  header p {
+    margin-left: 10px;
+    padding-top: 5px;
+  }
+
+  .top_part {
+    padding-bottom: 0;
+  }
+
+  .forfillForm {
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .top_btn {
+    display: none;
+  }
+
+  #one_logo {
+    width: 140px;
+  }
+
+  .second_part p {
+    margin-top: 4px;
+    font-size: 1.5em;
+  }
+
+  #Lec_pic {
+    width: 100%;
+  }
+
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  .for_circle {
+    bottom: 23px;
+    left: 145px;
+  }
+
+  .forIconbtn {
+    width: 30px;
+    height: 51px;
+  }
+
+  .btn {
+    display: none;
+    font-size: 0.725em;
+  }
+
+  #btnOne {
+    bottom: 64px;
+    left: 0;
+  }
+
+  .btn_one {
+    top: 37px;
+    left: -57px;
+  }
+
+  .btn_two {
+    top: 37px;
+    left: 319px;
+  }
+
+  #btnTwo {
+    bottom: 64px;
+    right: 0;
+  }
+
+  /****************** SECTION ********************/
+  .toggle_Container {
+    transform: translate(3px, 26px);
+  }
+
+  .forToggling {
+    width: 125px;
+  }
+
+  #forBachelor {
+    left: 125px;
+  }
+
+  #forMaster {
+    left: 250px;
+  }
+
+  .tooltip {
+    left: 383px;
+  }
+
+  .payment,
+  .fill_form,
+  .result {
+    margin-left: 0;
+  }
+
+  #wallet,
+  #fill_form,
+  #result {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text {
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #btn {
+    margin: 25px auto 40px;
+  }
+
+  /************** FOOTER *******************/
+  footer {
+    margin-top: 20px;
+  }
+
+  footer h5 {
+    text-align: center;
+  }
+
+  .footer_info {
+    display: grid;
+    text-align: center;
+  }
+
+  .DivforLogo {
+    display: none;
+  }
+
+  .contact_Us {
+    order: 2;
+  }
+
+  .Affiliated_By {
+    order: 1;
+    margin-left: 50px;
+  }
+
+  .ctevt,
+  .pokharabg {
+    margin-top: 20px;
+  }
+
+  .copyright_social {
+    display: grid;
+  }
+
+  .copyright_social p {
+    margin-top: 0;
+  }
+
+  .copy_right {
+    order: 2;
+  }
+
+  .socialMedia_logo {
+    order: 1;
+    text-align: left;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .socialMedia_logo ul {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .socialMedia_logo li {
+    margin-right: 15px;
+  }
+
+  .socialMedia_logo img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .copy_right p {
+    text-align: center;
+    margin-top: 15px;
+  }
+}

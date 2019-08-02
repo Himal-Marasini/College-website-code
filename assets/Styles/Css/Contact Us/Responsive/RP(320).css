@@ -1,0 +1,24 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 1em;
+  }
+
+  .row {
+    width: 320px;
+  }
+
+  header p {
+    margin-left: 4px;
+    text-transform: capitalize;
+  }
+
+  #one_logo {
+    width: 150px;
+  }
+  .second_part p {
+    display: none;
+  }
+  .ctevt {
+    margin-left: 20px;
+  }
+}

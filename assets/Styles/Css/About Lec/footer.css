@@ -1,0 +1,106 @@
+footer {
+  background: url(../../../Images/grayBg.jpg) 0 0 no-repeat fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.footer__overlay {
+  background-color: rgba(52, 152, 219, 0.9);
+  width: 100%;
+  height: auto;
+}
+
+.footer__container {
+  display: flex;
+}
+
+#Footerlogo {
+  width: 140px;
+  height: auto;
+}
+
+.contact__container {
+  margin-left: 20px;
+  font-family: montserrat;
+  color: #212121;
+  font-size: 0.889em;
+  margin-top: 20px;
+  flex: 2;
+}
+
+.contact__title,
+.affiliated__title {
+  font-family: montserrat;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.contact__text {
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+.affiliated__container {
+  margin-top: 20px;
+}
+
+.ctevt__container {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+}
+
+.ctevt__caption {
+  text-align: center;
+}
+
+.pokhara__container {
+  display: inline-block;
+  margin-left: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+#puLogo {
+  margin-left: 40px;
+}
+
+.copyright__container {
+  flex: 2;
+}
+
+.copyright__text {
+  flex: 2;
+  font-size: 0.920em;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.socialmedia__container {
+  flex: 1;
+  margin-left: 115px;
+}
+
+.socialmedia__title {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.footer__text {
+  text-align: center;
+  font-size: 0.888em;
+  margin-top: 20px
+}
+
+.footer__link {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}

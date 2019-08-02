@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px) {
+  .row {
+    width: 748px;
+  }
+
+  /************** HEADER *******************/
+
+  .second_part p {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  nav {
+    width: auto;
+    height: 41px;
+    position: relative;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    border-bottom: 1px solid white;
+    font-weight: 550;
+    margin: 0;
+    background-color: #3498db;
+  }
+
+  a {
+    color: white;
+  }
+
+  .menu {
+    display: block;
+    width: 40px;
+    height: 34px;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+  }
+
+  /************** SECTION *******************/
+  .toggle_Container {
+    transform: translate(177px, 26px);
+  }
+
+  .payment {
+    margin-top: 60px;
+  }
+
+  .text {
+    width: 592px;
+  }
+}

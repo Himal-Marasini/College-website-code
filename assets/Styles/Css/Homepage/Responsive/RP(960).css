@@ -1,0 +1,70 @@
+@media only screen and (max-width: 960px) {
+
+    /************** HEADER *******************/
+    .row {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    header p {
+        margin-left: 20px;
+    }
+
+    #btn-1 {
+        margin-right: 10px;
+    }
+
+    /************** MAIN *******************/
+    #logo {
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    nav {
+        margin-right: 10px;
+    }
+
+    /************** SECTION OF MESSAGE & UPDATES *******************/
+    .Princ_message {
+        width: 62%;
+        margin-left: 10px;
+    }
+
+    .updates {
+        margin-right: 10px;
+    }
+
+    /************** FIGURE(COURSES) *******************/
+    figure p {
+        font-size: 1em;
+        left: 418px;
+    }
+
+    .forDiploma {
+        width: 230px;
+        left: 62px;
+    }
+
+    .forDiploma::before {
+        left: 48px;
+    }
+
+    .forBachelor {
+        width: auto;
+        left: 362px;
+    }
+
+    /************** FOOTER *******************/
+    .forCoCurricularLogo p {
+        transform: translate(134%, 152%);
+        font-size: 1em;
+    }
+
+    #co_logo {
+        width: 37%;
+    }
+
+    .Affiliated_By {
+        margin-right: 20px;
+    }
+}

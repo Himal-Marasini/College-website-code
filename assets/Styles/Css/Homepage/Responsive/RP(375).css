@@ -1,0 +1,62 @@
+@media only screen and (max-width: 375px) {
+
+  /************** COMMON CODE *******************/
+  .row {
+    width: 375px;
+  }
+
+  /************** HEADER *******************/
+  header p {
+    margin-left: 8px;
+  }
+
+  /************** FIGURE *******************/
+  #material {
+    width: 73%;
+    top: 307px;
+    left: 62px;
+  }
+
+  figure p {
+    left: 144px;
+    top: 361px;
+  }
+
+  .forDiploma {
+    top: 476px;
+    left: 79px;
+  }
+
+  #left_arrow {
+    width: 30px;
+    height: 30px;
+    left: 7px;
+    bottom: 127px;
+  }
+
+  #right_arrow {
+    width: 30px;
+    height: 30px;
+    left: 336px;
+    bottom: 127px;
+  }
+
+  #co_logo {
+    width: 85%;
+  }
+
+  /************** CO_CURRICULAR *******************/
+  .forCoCurricularLogo p {
+    transform: translate(31%, 132%);
+  }
+
+  .first_activity {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /************** FOOTER *******************/
+  .copy_right p {
+    margin-left: 7px;
+  }
+}

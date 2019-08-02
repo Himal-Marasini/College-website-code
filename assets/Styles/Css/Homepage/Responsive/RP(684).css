@@ -1,0 +1,54 @@
+@media only screen and (max-width: 684px) {
+
+    /************** COMMON CODE *******************/
+
+    .row {
+        width: 684px;
+    }
+
+    /************** FIGURE(COURSES) *******************/
+    .doubleAngle {
+        margin-left: 12px;
+    }
+
+    .forDiploma {
+        left: 35px;
+    }
+
+    .forBachelor {
+        left: 296px;
+    }
+
+    #co_logo {
+        width: 47%;
+    }
+
+    /************** CO_CURRICULAR *******************/
+
+    .forCoCurricularLogo p {
+        transform: translate(98%, 145%);
+    }
+
+    .first_activity {
+        margin-left: 35px;
+    }
+
+    #ctevtLogo {
+        width: 70px;
+    }
+
+    #puLogo {
+        width: 70px;
+    }
+
+    figcaption {
+        font-size: 0.889em;
+    }
+
+    /************** FOOTER *******************/
+
+    .socialMedia_logo p,
+    footer h5 {
+        font-weight: 500;
+    }
+}

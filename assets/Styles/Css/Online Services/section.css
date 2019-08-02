@@ -1,0 +1,142 @@
+.toggle {
+  display: inline-block;
+  transform: translate(378px, 26px);
+  position: relative;
+}
+
+.toggle__container {
+  width: 140px;
+  height: 34px;
+  background-color: #ecf0f1;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.toggle__container:hover {
+  background-color: #2ecc71;
+}
+
+.toggle--active {
+  background-color: #00b894;
+  color: white;
+  font-weight: 550;
+  transition: background-color 150ms linear;
+}
+
+.toggle--active:hover {
+  background-color: #00b894;
+}
+
+#diploma {
+  border-radius: 15px 0px 0px 15px;
+}
+
+#bachelor {
+  left: 139px;
+}
+
+#master {
+  left: 279px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  left: 431px;
+}
+
+#tooltip__icon {
+  width: 15px;
+  height: 15px;
+}
+
+.tooltip__text {
+  visibility: hidden;
+  width: 230px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 0.885em;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -8px;
+  left: 110%;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+
+.tooltip__text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.tooltip:hover .tooltip__text {
+  visibility: visible;
+}
+
+.feature {
+  margin-top: 30px;
+}
+
+.feature__container {
+  margin-left: 50px;
+  display: block;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
+  vertical-align: super;
+  margin-right: 30px;
+}
+
+.feature__title {
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.feature__text {
+  width: 900px;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.btn--large {
+  font-size: 1em;
+  margin-left: 105px;
+  margin-top: 25px;
+  background-color: #3498db;
+  border-radius: 3px;
+  font-family: montserrat;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+/* .btn {
+  width: 140px;
+  height: 40px;
+  display: block;
+  margin-left: 105px;
+  margin-top: 25px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  background-color: #3498db;
+  border-radius: 3px;
+  font-family: montserrat;
+  letter-spacing: 0.5px;
+} */

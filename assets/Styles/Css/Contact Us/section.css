@@ -1,0 +1,30 @@
+.contact-us {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.contact-us__title {
+  color: #212121;
+  font-weight: 600;
+}
+
+.contact-us__text {
+  color: #212121;
+}
+
+.contact-us__subtitle {
+  text-transform: uppercase;
+  font-weight: 550;
+}
+
+.contact-us__icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.map {
+  float: right;
+  margin-top: 30px;
+}

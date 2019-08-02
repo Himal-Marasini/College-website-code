@@ -1,0 +1,89 @@
+.container {
+  position: relative;
+  width: auto;
+  height: 40%;
+  display: block;
+  margin: 1.875em auto 0 auto;
+}
+
+.arrow {
+  font-size: 1.833em;
+  color: #fff;
+}
+
+.btn_one {
+  position: absolute;
+  top: 9.938em;
+  left: 3.438em;
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.btn_two {
+  position: absolute;
+  top: 9.938em;
+  left: 66.563em;
+  opacity: 0.3;
+  transition: opacity 100ms linear;
+}
+
+.forIconbtn {
+  display: inline-block;
+  width: 3.188em;
+  height: 5em;
+  background-color: #212121;
+  position: absolute;
+  opacity: 0.7;
+}
+
+#btnOne {
+  bottom: 9em;
+  left: 2.438em;
+}
+
+#btnTwo {
+  bottom: 9.063em;
+  right: 2.5em;
+}
+
+.btn_two:hover,
+.btn_one:hover {
+  opacity: 1;
+}
+
+.for_circle {
+  position: absolute;
+  bottom: 2.25em;
+  left: 31.375em;
+}
+
+.dot {
+  height: 0.938em;
+  width: 0.938em;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dottoggle {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.lol {
+  width: 100%;
+  height: 100%;
+}
+
+#Lec_pic {
+  width: 93%;
+  height: 30%;
+  margin: 1.875em auto;
+  display: block;
+}
+
+.img_container {
+  width: auto;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+}

@@ -13,11 +13,9 @@ html {
   overflow-x: hidden;
 }
 
-/********** COMMON CODE ***************/
-
-.clearfix::after {
-  clear: both;
-  display: block;
+.row {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 nav {
@@ -26,25 +24,32 @@ nav {
   height: 41px;
 }
 
-ul {
-  text-decoration: none;
-  text-align: center;
-  text-transform: capitalize;
-  padding-top: 3px;
+.clearfix {
+  clear: both;
+}
+
+.clearfix::before {
+  clear: both;
+}
+
+.clearfix::after {
+  clear: both;
 }
 
 a {
+  text-decoration: none;
   color: white;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
 }
 
 li {
   display: inline-block;
-  margin-left: 68px;
-}
-
-.row {
-  width: 1140px;
-  margin: 0 auto;
+  margin-right: 28px;
+  text-transform: capitalize;
 }
 
 /********** HEADER ***************/
@@ -119,8 +124,17 @@ li {
   text-decoration: none;
 }
 
-.header-nav__items {
+.header-nav__item {
   display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 3px;
+}
+
+.header-nav__items {
+  display: inline-block;
+  margin-left: 68px;
 }
 
 .menu {

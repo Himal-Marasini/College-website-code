@@ -13,7 +13,10 @@ html {
   overflow-x: hidden;
 }
 
-/********** COMMON CODE ***************/
+.row {
+  width: 1140px;
+  margin: 0 auto;
+}
 
 .clearfix {
   clear: both;
@@ -43,15 +46,6 @@ li {
   text-transform: capitalize;
 }
 
-nav ul li:last-child {
-  margin-right: 0px;
-}
-
-.row {
-  width: 1140px;
-  margin: 0 auto;
-}
-
 /********** HEADER ***************/
 
 header {
@@ -76,7 +70,6 @@ header {
 .header__buttonContainer {
   float: right;
   font-size: 0.889em;
-
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -115,356 +108,356 @@ header {
 /********** MAIN ***************/
 
 main {
-  width: 100%;
-  height: 470px;
-  display: block;
+    width: 100%;
+    height: 470px;
+    display: block;
 }
 
 main .row {
-  position: relative;
-  z-index: 3;
+    position: relative;
+    z-index: 3;
 }
 
 nav {
-  float: right;
-  clear: both;
-  padding-top: 40px;
-  font-size: 0.889em;
+    float: right;
+    clear: both;
+    padding-top: 40px;
+    font-size: 0.889em;
 }
 
 .main__link:hover {
-  color: #0288d1;
+    color: #0288d1;
 }
 
 .main__forOverlay {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 470px;
-  position: absolute;
-  z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    z-index: 1;
 }
 
 video {
-  width: 100%;
-  height: 470px;
-  -o-object-fit: fill;
-  object-fit: fill;
-  position: absolute;
+    width: 100%;
+    height: 470px;
+    -o-object-fit: fill;
+       object-fit: fill;
+    position: absolute;
 }
 
 .main__title {
-  color: white;
-  text-align: center;
-  margin-top: 40px;
-  font-size: 1.778em;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.778em;
 }
 
 #logo {
-  width: 140px;
-  height: auto;
-  -webkit-transform: translate(-17px, -22px);
-  transform: translate(-17px, -22px);
+    width: 140px;
+    height: auto;
+    -webkit-transform: translate(-17px, -22px);
+            transform: translate(-17px, -22px);
 }
 
 /********** SECTION ***************/
 
 section {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .principleMessage {
-  width: 65%;
-  height: 350px;
-  background-color: red;
-  display: inline-block;
-  border-radius: 2px;
+    width: 65%;
+    height: 350px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 2px;
 }
 
 .updates {
-  width: 30%;
-  height: 350px;
-  background-color: #bdc3c7;
-  float: right;
-  margin-left: 50px;
-  border-radius: 4px;
+    width: 30%;
+    height: 350px;
+    background-color: #bdc3c7;
+    float: right;
+    margin-left: 50px;
+    border-radius: 4px;
 }
 
 .updates__title {
-  text-align: center;
-  padding-top: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 1em;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
 .updates__list {
-  font-size: 0.778em;
-  line-height: 28px;
-  width: 100%;
-  margin: 10px 0 0 0;
-  display: list-item;
+    font-size: 0.778em;
+    line-height: 28px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: list-item;
 }
 
 .newsReading {
-  height: 28px;
-  width: 28px;
-  margin-right: 6px;
-  vertical-align: middle;
+    height: 28px;
+    width: 28px;
+    margin-right: 6px;
+    vertical-align: middle;
 }
 
 .doubleAngle {
-  height: 27px;
-  width: 16px;
-  margin-left: 30px;
-  margin-top: 20px;
-  vertical-align: bottom;
-  margin-right: 13px;
+    height: 27px;
+    width: 16px;
+    margin-left: 30px;
+    margin-top: 20px;
+    vertical-align: bottom;
+    margin-right: 13px;
 }
 
 /********** SECTION : COURSE WE OFFER ***************/
 
 figure {
-  position: relative;
-  margin-top: 120px;
+    position: relative;
+    margin-top: 120px;
 }
 
 figure ul {
-  margin: 20px 0 20px 30px;
+    margin: 20px 0 20px 30px;
 }
 
 figure li {
-  display: block;
+    display: block;
 }
 
 figure p {
-  position: absolute;
-  text-transform: uppercase;
-  top: 48px;
-  left: 584px;
-  color: white;
-  font-size: 1.333em;
-  font-weight: 400;
+    position: absolute;
+    text-transform: uppercase;
+    top: 48px;
+    left: 584px;
+    color: white;
+    font-size: 1.333em;
+    font-weight: 400;
 }
 
 #board {
-  width: 100%;
-  height: 527px;
-  margin-top: 68px;
+    width: 100%;
+    height: 527px;
+    margin-top: 68px;
 }
 
 #material {
-  width: 38%;
-  position: absolute;
-  top: -68px;
-  left: 400px;
+    width: 38%;
+    position: absolute;
+    top: -68px;
+    left: 400px;
 }
 
 #right_arrow_smallScreen {
-  display: none;
+    display: none;
 }
 
 #left_arrow_smallScreen {
-  display: none;
+    display: none;
 }
 
 #right_arrow {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: none;
 }
 
 #left_arrow {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: none;
 }
 
 .forDiploma {
-  height: auto;
-  width: 300px;
-  background-color: white;
-  position: absolute;
-  top: 214px;
-  left: 100px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
-  transition: left 2s linear;
+    height: auto;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 214px;
+    left: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
+    transition: left 2s linear;
 }
 
 .forDiploma::before {
-  content: "Diploma In :";
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  height: 30px;
-  width: 138px;
-  background-color: #3498db;
-  position: absolute;
-  top: -30px;
-  left: 77px;
-  border-radius: 15px 15px 0px 0px;
+    content: "Diploma In :";
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 138px;
+    background-color: #3498db;
+    position: absolute;
+    top: -30px;
+    left: 77px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .forDiploma li::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #3498db;
-  margin-right: 13px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #3498db;
+    margin-right: 13px;
 }
 
 .forBachelor {
-  height: auto;
-  width: 382px;
-  background-color: white;
-  position: absolute;
-  top: 214px;
-  left: 474px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
-  transition: left 2s linear;
+    height: auto;
+    width: 382px;
+    background-color: white;
+    position: absolute;
+    top: 214px;
+    left: 474px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
+    transition: left 2s linear;
 }
 
 .forBachelor li::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #3498db;
-  margin-right: 13px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #3498db;
+    margin-right: 13px;
 }
 
 .forBachelor::before {
-  content: "Bachelor In :";
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  height: 30px;
-  width: 168px;
-  background-color: #3498db;
-  position: absolute;
-  top: -30px;
-  left: 61px;
-  border-radius: 15px 15px 0px 0px;
+    content: "Bachelor In :";
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 168px;
+    background-color: #3498db;
+    position: absolute;
+    top: -30px;
+    left: 61px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .forMaster {
-  height: 127px;
-  width: 300px;
-  background-color: white;
-  position: absolute;
-  top: 214px;
-  left: 925px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
-  transition: left 2s linear;
+    height: 127px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 214px;
+    left: 925px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
+    transition: left 2s linear;
 
 }
 
 .forMaster::before {
-  content: "Master In :";
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  height: 30px;
-  width: 138px;
-  background-color: #3498db;
-  position: absolute;
-  top: -30px;
-  left: 77px;
-  border-radius: 15px 15px 0px 0px;
+    content: "Master In :";
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 30px;
+    width: 138px;
+    background-color: #3498db;
+    position: absolute;
+    top: -30px;
+    left: 77px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .forMaster li::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #3498db;
-  margin-right: 13px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #3498db;
+    margin-right: 13px;
 }
 
 /********** SECTION : Co-Curricular activities ***************/
 
 .curricular__logo {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
 
 .curricular__title {
-  position: absolute;
-  -webkit-transform: translate(209%, 160%);
-  transform: translate(209%, 160%);
-  color: white;
-  text-transform: uppercase;
+    position: absolute;
+    -webkit-transform: translate(209%, 160%);
+            transform: translate(209%, 160%);
+    color: white;
+    text-transform: uppercase;
 }
 
 #co_logo {
-  width: 28%;
-  height: auto;
+    width: 28%;
+    height: auto;
 }
 
 .cocurricular-Activities {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
 .cocurricular-Activities__container {
-  flex-basis: 300px;
-  height: auto;
-  border: 2px solid #3498db;
+    flex-basis: 300px;
+    height: auto;
+    border: 2px solid #3498db;
 }
 
 .cocurricular-Activities__imageContainer {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .cocurricular-Activities__image {
-  width: 200px;
-  height: auto;
-  margin-left: 47px;
-  margin-top: 20px;
-  transition: -webkit-transform 900ms linear;
-  transition: transform 900ms linear;
-  transition: transform 900ms linear, -webkit-transform 900ms linear;
+    width: 200px;
+    height: auto;
+    margin-left: 47px;
+    margin-top: 20px;
+    transition: -webkit-transform 900ms linear;
+    transition: transform 900ms linear;
+    transition: transform 900ms linear, -webkit-transform 900ms linear;
 }
 
 .cocurricular-Activities__image:hover {
-  -webkit-transform: scale(1.9);
-  transform: scale(1.9);
-}
-
-.cocurricular-Activities__title {
-  font-weight: 500;
-  font-size: 1em;
-  margin-left: 20px;
-}
-
-.cocurricular-Activities__text {
-  font-size: 0.889em;
-  margin-left: 20px;
+    -webkit-transform: scale(1.9);
+            transform: scale(1.9);
 }
 
 .image--height {
-  height: 148px;
+    height: 148px;
+}
+
+.cocurricular-Activities__title {
+    font-weight: 500;
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+.cocurricular-Activities__text {
+    font-size: 0.889em;
+    margin-left: 20px;
 }
 
 .angle_left {
-  padding-left: 3px;
+    padding-left: 3px;
 }
 
 .angle_right {
-  margin-left: 2px;
-  padding-right: 3px;
-  padding-left: 5px;
+    margin-left: 2px;
+    padding-right: 3px;
+    padding-left: 5px;
 }
 
 /********** FOOTER ***************/
@@ -580,80 +573,79 @@ footer {
 
 @media only screen and (max-width: 960px) {
 
-  /************** HEADER *******************/
-  .row {
-    width: 960px;
-    margin: 0 auto;
-  }
+    /************** HEADER *******************/
+    .row {
+        width: 960px;
+        margin: 0 auto;
+    }
 
-  header p {
-    margin-left: 20px;
-  }
+    header p {
+        margin-left: 20px;
+    }
 
-  #btn-1 {
-    margin-right: 10px;
-  }
+    #btn-1 {
+        margin-right: 10px;
+    }
 
-  /************** MAIN *******************/
-  #logo {
-    width: 130px;
-    margin-left: 10px;
-  }
+    /************** MAIN *******************/
+    #logo {
+        width: 130px;
+        margin-left: 10px;
+    }
 
-  nav {
-    margin-right: 10px;
-  }
+    nav {
+        margin-right: 10px;
+    }
 
-  /************** SECTION OF MESSAGE & UPDATES *******************/
-  .Princ_message {
-    width: 62%;
-    margin-left: 10px;
-  }
+    /************** SECTION OF MESSAGE & UPDATES *******************/
+    .Princ_message {
+        width: 62%;
+        margin-left: 10px;
+    }
 
-  .updates {
-    margin-right: 10px;
-  }
+    .updates {
+        margin-right: 10px;
+    }
 
-  /************** FIGURE(COURSES) *******************/
-  figure p {
-    font-size: 1em;
-    left: 418px;
-  }
+    /************** FIGURE(COURSES) *******************/
+    figure p {
+        font-size: 1em;
+        left: 418px;
+    }
 
-  .forDiploma {
-    width: 230px;
-    left: 62px;
-  }
+    .forDiploma {
+        width: 230px;
+        left: 62px;
+    }
 
-  .forDiploma::before {
-    left: 48px;
-  }
+    .forDiploma::before {
+        left: 48px;
+    }
 
-  .forBachelor {
-    width: auto;
-    left: 362px;
-  }
+    .forBachelor {
+        width: auto;
+        left: 362px;
+    }
 
-  /************** FOOTER *******************/
-  .forCoCurricularLogo p {
-    -webkit-transform: translate(134%, 152%);
-    transform: translate(134%, 152%);
-    font-size: 1em;
-  }
+    /************** FOOTER *******************/
+    .forCoCurricularLogo p {
+        -webkit-transform: translate(134%, 152%);
+                transform: translate(134%, 152%);
+        font-size: 1em;
+    }
 
-  #co_logo {
-    width: 37%;
-  }
+    #co_logo {
+        width: 37%;
+    }
 
-  .Affiliated_By {
-    margin-right: 20px;
-  }
+    .Affiliated_By {
+        margin-right: 20px;
+    }
 }
 
 /********** RP for 768px ***************/
 
 @media only screen and (max-width: 768px) {
-
   /************** COMMON CODE *******************/
   html {
     font-size: 1em;
@@ -668,7 +660,6 @@ footer {
   .btn {
     width: 122px;
   }
-
   .menu {
     display: block;
   }
@@ -750,7 +741,7 @@ footer {
   /************** CO_CURRICULAR *******************/
   .forCoCurricularLogo p {
     -webkit-transform: translate(116%, 148%);
-    transform: translate(116%, 148%);
+            transform: translate(116%, 148%);
   }
 
   #co_logo {
@@ -792,7 +783,6 @@ footer {
   .same h5 {
     text-align: center;
   }
-
   .forco_Icon {
     display: block;
     text-align: center;
@@ -817,64 +807,63 @@ footer {
 
 @media only screen and (max-width: 684px) {
 
-  /************** COMMON CODE *******************/
+    /************** COMMON CODE *******************/
 
-  .row {
-    width: 684px;
-  }
+    .row {
+        width: 684px;
+    }
 
-  /************** FIGURE(COURSES) *******************/
-  .doubleAngle {
-    margin-left: 12px;
-  }
+    /************** FIGURE(COURSES) *******************/
+    .doubleAngle {
+        margin-left: 12px;
+    }
 
-  .forDiploma {
-    left: 35px;
-  }
+    .forDiploma {
+        left: 35px;
+    }
 
-  .forBachelor {
-    left: 296px;
-  }
+    .forBachelor {
+        left: 296px;
+    }
 
-  #co_logo {
-    width: 47%;
-  }
+    #co_logo {
+        width: 47%;
+    }
 
-  /************** CO_CURRICULAR *******************/
+    /************** CO_CURRICULAR *******************/
 
-  .forCoCurricularLogo p {
-    -webkit-transform: translate(98%, 145%);
-    transform: translate(98%, 145%);
-  }
+    .forCoCurricularLogo p {
+        -webkit-transform: translate(98%, 145%);
+                transform: translate(98%, 145%);
+    }
 
-  .first_activity {
-    margin-left: 35px;
-  }
+    .first_activity {
+        margin-left: 35px;
+    }
 
-  #ctevtLogo {
-    width: 70px;
-  }
+    #ctevtLogo {
+        width: 70px;
+    }
 
-  #puLogo {
-    width: 70px;
-  }
+    #puLogo {
+        width: 70px;
+    }
 
-  figcaption {
-    font-size: 0.889em;
-  }
+    figcaption {
+        font-size: 0.889em;
+    }
 
-  /************** FOOTER *******************/
+    /************** FOOTER *******************/
 
-  .socialMedia_logo p,
-  footer h5 {
-    font-weight: 500;
-  }
+    .socialMedia_logo p,
+    footer h5 {
+        font-weight: 500;
+    }
 }
 
 /********** RP for 425px ***************/
 
 @media only screen and (max-width: 425px) {
-
   /************** COMMON CODE *******************/
   html {
     font-size: 1em;
@@ -975,7 +964,7 @@ footer {
 
   .forCoCurricularLogo p {
     -webkit-transform: translate(41%, 129%);
-    transform: translate(41%, 129%);
+            transform: translate(41%, 129%);
   }
 
   .first_activity {
@@ -1107,7 +1096,7 @@ footer {
   /************** CO_CURRICULAR *******************/
   .forCoCurricularLogo p {
     -webkit-transform: translate(31%, 132%);
-    transform: translate(31%, 132%);
+            transform: translate(31%, 132%);
   }
 
   .first_activity {
@@ -1127,60 +1116,48 @@ footer {
   html {
     font-size: 0.875em;
   }
-
   .row {
     width: 320px;
   }
-
   header p {
     font-size: 1em;
     text-transform: capitalize;
     margin-left: 20px;
   }
-
   #logo {
     width: 81px;
   }
-
   .menu {
     width: 30px;
   }
-
   #material {
     width: 84%;
     top: 307px;
     left: 30px;
   }
-
   figure p {
     left: 120px;
     top: 360px;
   }
-
   #right_arrow {
     left: 279px;
   }
-
   .forDiploma {
     top: 458px;
     left: 40px;
   }
-
   .forCoCurricularLogo {
     -webkit-transform: translate(2%, 8%);
-    transform: translate(2%, 8%);
+            transform: translate(2%, 8%);
   }
-
   .forCoCurricularLogo p {
     -webkit-transform: translate(29%, 111%);
-    transform: translate(29%, 111%);
+            transform: translate(29%, 111%);
   }
-
   .first_activity {
     margin-left: 0;
     margin-right: 0;
   }
-
   .copy_right p {
     margin-left: 0;
   }

@@ -1,0 +1,187 @@
+@media only screen and (max-width: 769px) {
+  .row {
+    /* width: 748px; */
+    width: auto;
+  }
+
+  /************** HEADER *******************/
+
+  /* .second_part p {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  nav {
+    width: auto;
+    height: 41px;
+    position: relative;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    display: block;
+    border-bottom: 1px solid white;
+    font-weight: 550;
+    margin: 0;
+    background-color: #3498db;
+  }
+
+  a {
+    color: white;
+  }
+
+  .menu {
+    width: 40px;
+    height: 34px;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    display: block;
+  }
+*/
+  .top_btn {
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
+  }
+
+
+
+  /************** SECTION *******************/
+
+  /* .forbox_shadow {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .for_circle {
+    bottom: 26px;
+    left: 294px;
+  }
+
+  #btnOne {
+    bottom: 104px;
+    left: 26px;
+  }
+
+  #btnTwo {
+    bottom: 104px;
+    right: 26px;
+  }
+
+  .btn_one {
+    top: 100px;
+    left: 32px;
+    font-size: 0.685em;
+  }
+
+  .btn_two {
+    top: 101px;
+    left: 695px;
+    font-size: 0.685em;
+  }
+
+  .forIconbtn {
+    width: 33px;
+    height: 60px;
+  } */
+
+  /************** FOOTER *******************/
+  /* #Footerlogo {
+    width: 120px;
+  }
+
+  .contact_Us {
+    margin-left: 5px;
+  }
+
+  .Affiliated_By {
+    margin-right: 10px;
+  } */
+}
+
+
+
+@media only screen and (max-width:590px) {
+  #one_logo {
+    width: 10.5em;
+  }
+
+  .second_part p {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width:512px) {
+  #one_logo {
+    width: 9.5em;
+  }
+
+  .second_part p {
+    font-size: 1.95em;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .copyright_social {
+    display: block;
+  }
+
+  .copyright_social p {
+    text-align: center;
+  }
+
+  .socialMedia_logo {
+    margin: 0;
+    flex: none;
+  }
+
+  .socialMedia_logo ul {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 634px) {
+
+  .header-text_left {
+    text-align: center;
+    display: block;
+  }
+
+  .header-btn_right {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+
+  .second_part p {
+    margin-top: 0.795em;
+  }
+}
+
+@media only screen and (max-width:880px) {
+  .flex_container {
+    display: block;
+    text-align: center;
+  }
+
+  .logo_contact {
+    text-align: center;
+  }
+
+  .Affiliated_By {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1357px) {
+  .second_part p {
+    margin-right: 0;
+  }
+}
