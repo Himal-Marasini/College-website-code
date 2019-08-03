@@ -1,13 +1,13 @@
 @import "../../base/global.css";
 
 /********** HEADER ***************/
-@import "./header.css";
+@import "../../base/header.css";
 
 /********** SECTION ***************/
 @import "./section.css";
 
 /********** FOOTER ***************/
-@import "./footer.css";
+@import "../../base/footer.css";
 
 /********** RP for 768px ***************/
 @import "./Responsive/RP(768).css";

@@ -14,8 +14,14 @@ html {
 }
 
 .row {
-  width: 1140px;
+  width: 84%;
   margin: 0 auto;
+}
+
+nav {
+  background-color: #3498db;
+  width: 100%;
+  height: 41px;
 }
 
 .clearfix {
@@ -49,99 +55,94 @@ li {
 /********** HEADER ***************/
 
 .header__container {
-  width: 100%;
-  height: auto;
-  background-color: #757575;
-  padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background-color: #757575;
+    padding-bottom: 10px;
 }
 
 .header__text {
-  text-transform: uppercase;
-  padding-top: 10px;
-  color: white;
-  display: inline-block;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: white;
+    display: inline-block;
 }
 
 .header__buttonContainer {
-  float: right;
-  font-size: 0.889em;
-  text-transform: uppercase;
-  font-weight: 600;
+    float: right;
+    font-size: 0.889em;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 #header_logo {
-  width: 12.5em;
+    width: 12.5em;
 }
 
 .btn {
-  width: 9em;
-  height: 2.5em;
-  text-align: center;
-  padding-top: 0.1em;
-  margin-top: 0.438em;
-  display: inline-block;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
+    width: 9em;
+    height: 2.5em;
+    text-align: center;
+    padding-top: 0.1em;
+    margin-top: 0.438em;
+    display: inline-block;
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 .btn--blue {
-  margin-top: 0.5em;
-  background-color: #0288d1;
-  color: white;
+    margin-top: 0.5em;
+    background-color: #0288d1;
+    color: white;
 }
 
 .btn--lightBlue {
-  margin-right: 0.938em;
-  margin-top: 0.5em;
-  background-color: #b3e5fc;
-  color: #212121;
+    margin-right: 0.938em;
+    margin-top: 0.5em;
+    background-color: #b3e5fc;
+    color: #212121;
 }
 
 .header-second__container {
-  margin-top: 0.625em;
+    margin-top: 0.625em;
 }
 
 .header-second__text {
-  color: #3498db;
-  text-transform: capitalize;
-  float: right;
-  margin-top: 0.625em;
-  margin-right: 5em;
-  font-family: Dancing Script;
-  font-size: 2.353em;
+    color: #3498db;
+    text-transform: capitalize;
+    float: right;
+    margin-top: 0.625em;
+    /* margin-right: 5em; */
+    font-family: Dancing Script;
+    font-size: 2.353em;
 }
 
 .header-second__inlineText {
-  font-family: Georgia;
-}
-
-nav {
-  background-color: #3498db;
-  width: 100%;
-  height: 41px;
+    font-family: Georgia;
 }
 
 .header-nav__link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .header-nav__item {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  text-transform: capitalize;
-  padding-top: 3px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3px;
 }
 
 .header-nav__items {
-  display: inline-block;
-  margin-left: 68px;
+    display: inline-block;
+    margin-left: 68px;
+    margin-right: 0;
 }
 
 .menu {
-  display: none;
+    display: none;
 }
 
 /********** SECTION ***************/
@@ -273,130 +274,112 @@ nav {
   color: white;
 }
 
-/* .btn {
-  width: 140px;
-  height: 40px;
-  display: block;
-  margin-left: 105px;
-  margin-top: 25px;
-  outline: none;
-  border: none;
-  font-size: 1em;
-  color: white;
-  cursor: pointer;
-  background-color: #3498db;
-  border-radius: 3px;
-  font-family: montserrat;
-  letter-spacing: 0.5px;
-} */
-
 /********** FOOTER ***************/
 
 footer {
-  background: url(../../../Images/grayBg.jpg) 0 0 no-repeat fixed;
-  width: 100%;
-  height: auto;
-  margin-top: 40px;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
 }
 
 .footer__overlay {
-  background-color: rgba(52, 152, 219, 0.9);
-  width: 100%;
-  height: auto;
+    background-color: rgba(52, 152, 219, 0.9);
+    width: 100%;
+    height: auto;
 }
 
 .footer__container {
-  display: flex;
+    display: flex;
 }
 
 #Footerlogo {
-  width: 140px;
-  height: auto;
+    width: 140px;
+    height: auto;
 }
 
 .contact__container {
-  margin-left: 20px;
-  font-family: montserrat;
-  color: #212121;
-  font-size: 0.889em;
-  margin-top: 20px;
-  flex: 2;
+    margin-left: 20px;
+    font-family: montserrat;
+    color: #212121;
+    font-size: 0.889em;
+    margin-top: 20px;
+    flex: 2;
 }
 
 .contact__title,
 .affiliated__title {
-  font-family: montserrat;
-  font-size: 1em;
-  font-weight: 600;
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .contact__text {
-  font-weight: 500;
-  text-transform: uppercase
+    font-weight: 500;
+    text-transform: uppercase
 }
 
 .affiliated__container {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .ctevt__container {
-  display: inline-block;
-  color: white;
-  font-weight: 600;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
 }
 
 .ctevt__caption {
-  text-align: center;
+    text-align: center;
 }
 
 .pokhara__container {
-  display: inline-block;
-  margin-left: 30px;
-  color: white;
-  font-weight: 600;
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
 }
 
 #puLogo {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 
 .copyright__container {
-  flex: 2;
+    flex: 2;
 }
 
 .copyright__text {
-  flex: 2;
-  font-size: 0.920em;
-  margin-top: 30px;
-  margin-left: 20px;
-  font-weight: 400;
+    flex: 2;
+    font-size: 0.920em;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 400;
 }
 
 .socialmedia__container {
-  flex: 1;
-  margin-left: 115px;
+    flex: 1;
+    margin-left: 18%;
 }
 
 .socialmedia__title {
-  font-weight: 600;
-  font-size: 1em;
+    font-weight: 600;
+    font-size: 1em;
 }
 
 .socialIcon {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .footer__text {
-  text-align: center;
-  font-size: 0.888em;
-  margin-top: 20px
+    text-align: center;
+    font-size: 0.888em;
+    margin-top: 20px
 }
 
 .footer__link {
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 /********** RP for 768px ***************/
