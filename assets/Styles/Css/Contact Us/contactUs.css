@@ -1,7 +1,7 @@
 @import "../../base/global.css";
 
 /********** HEADER ***************/
-@import "./header.css";
+@import "../../base/header.css";
 
 /********** SECTION ***************/
 @import "./section.css";
