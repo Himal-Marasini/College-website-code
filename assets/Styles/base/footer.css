@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .footer__overlay {
@@ -15,16 +15,16 @@ footer {
 }
 
 #Footerlogo {
-    width: 140px;
+    width: 8.75em;
     height: auto;
 }
 
 .contact__container {
-    margin-left: 20px;
+    margin-left: 1.25em;
     font-family: montserrat;
     color: #212121;
     font-size: 0.889em;
-    margin-top: 20px;
+    margin-top: 1.25em;
     flex: 2;
 }
 
@@ -41,7 +41,7 @@ footer {
 }
 
 .affiliated__container {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .ctevt__container {
@@ -56,13 +56,13 @@ footer {
 
 .pokhara__container {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875em;
     color: white;
     font-weight: 600;
 }
 
 #puLogo {
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .copyright__container {
@@ -72,8 +72,8 @@ footer {
 .copyright__text {
     flex: 2;
     font-size: 0.920em;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 1.875em;
+    margin-left: 1.25em;
     font-weight: 400;
 }
 

@@ -16,10 +16,11 @@
 @import "../../base/footer.css";
 
 /********** RP for 768px ***************/
-@import "./Responsive/RP(768).css";
+@import "../../base/RP(Head-Foot).css";
 
 /********** RP for 425px ***************/
 /* @import "./Responsive/RP(425).css"; */
+@import "../../base/RP(660).css";
 
 /********** RP for 375px ***************/
 /* @import "./Responsive/RP(375).css"; */

@@ -116,7 +116,6 @@ li {
     text-transform: capitalize;
     float: right;
     margin-top: 0.625em;
-    /* margin-right: 5em; */
     font-family: Dancing Script;
     font-size: 2.353em;
 }
@@ -139,12 +138,17 @@ li {
 
 .header-nav__items {
     display: inline-block;
-    margin-left: 68px;
+    margin-left: 4.25em;
     margin-right: 0;
 }
 
 .menu {
+    width: 40px;
+    height: auto;
+    float: right;
     display: none;
+    cursor: pointer;
+    outline: none;
 }
 
 /********** SECTION ***************/
@@ -293,7 +297,7 @@ li {
 footer {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .footer__overlay {
@@ -307,16 +311,16 @@ footer {
 }
 
 #Footerlogo {
-    width: 140px;
+    width: 8.75em;
     height: auto;
 }
 
 .contact__container {
-    margin-left: 20px;
+    margin-left: 1.25em;
     font-family: montserrat;
     color: #212121;
     font-size: 0.889em;
-    margin-top: 20px;
+    margin-top: 1.25em;
     flex: 2;
 }
 
@@ -333,7 +337,7 @@ footer {
 }
 
 .affiliated__container {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .ctevt__container {
@@ -348,13 +352,13 @@ footer {
 
 .pokhara__container {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875em;
     color: white;
     font-weight: 600;
 }
 
 #puLogo {
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .copyright__container {
@@ -364,8 +368,8 @@ footer {
 .copyright__text {
     flex: 2;
     font-size: 0.920em;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 1.875em;
+    margin-left: 1.25em;
     font-weight: 400;
 }
 
@@ -398,195 +402,130 @@ footer {
 
 /********** RP for 768px ***************/
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 1285px) {
+  .header-nav__items {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (max-width: 1172px) {
+  .header-nav__items {
+    margin-left: 2.6em;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .header-nav__items {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 1029px) {
   .row {
-    /* width: 748px; */
-    width: auto;
+    width: 90%;
   }
 
-  /************** HEADER *******************/
+  .header-nav__items {
+    margin-left: 1em;
+    text-align: left;
+  }
+}
 
-  /* .second_part p {
-    margin-top: 20px;
-    margin-right: 0;
+/* 
+@media only screen and (max-width:909px) {
+  .row {
+    width: 90%;
+    text-align: left;
   }
 
-  nav {
-    width: auto;
-    height: 41px;
-    position: relative;
+  .header-nav__items {
+    margin-left: 1em;
   }
+} */
 
-  nav ul {
-    display: none;
+@media only screen and (max-width:855px) {
+  .header-nav__items {
+    margin-left: .8em;
   }
+}
 
-  nav li {
+@media only screen and (max-width:833px) {
+  .header-nav__items {
     display: block;
-    border-bottom: 1px solid white;
-    font-weight: 550;
     margin: 0;
-    background-color: #3498db;
-  }
-
-  a {
-    color: white;
+    text-align: center;
   }
 
   .menu {
-    width: 40px;
-    height: 34px;
-    float: right;
-    margin-right: 5px;
-    position: absolute;
-    top: 5px;
-    right: 7px;
     display: block;
   }
-*/
+}
+
+@media only screen and (max-width: 769px) {
+  .row {
+    width: 95%;
+  }
+
+  .header__text {
+    display: block;
+    text-align: center;
+  }
+
+  .header__buttonContainer {
+    float: none;
+    text-align: center;
+  }
+
   .top_btn {
     width: 8em;
     height: 2.3em;
     padding-top: 0;
   }
 
-
-
-  /************** SECTION *******************/
-
-  /* .forbox_shadow {
-    width: auto;
-    padding: 0 10px;
+  #header_logo {
+    width: 9em;
   }
 
-  .for_circle {
-    bottom: 26px;
-    left: 294px;
-  }
-
-  #btnOne {
-    bottom: 104px;
-    left: 26px;
-  }
-
-  #btnTwo {
-    bottom: 104px;
-    right: 26px;
-  }
-
-  .btn_one {
-    top: 100px;
-    left: 32px;
-    font-size: 0.685em;
-  }
-
-  .btn_two {
-    top: 101px;
-    left: 695px;
-    font-size: 0.685em;
-  }
-
-  .forIconbtn {
-    width: 33px;
-    height: 60px;
-  } */
-
-  /************** FOOTER *******************/
-  /* #Footerlogo {
-    width: 120px;
-  }
-
-  .contact_Us {
-    margin-left: 5px;
-  }
-
-  .Affiliated_By {
-    margin-right: 10px;
-  } */
-}
-
-@media only screen and (max-width:590px) {
-  #one_logo {
-    width: 10.5em;
-  }
-
-  .second_part p {
-    font-size: 2.05em;
+  .header-second__text {
+    font-size: 2em;
   }
 }
 
-@media only screen and (max-width:512px) {
-  #one_logo {
-    width: 9.5em;
-  }
-
-  .second_part p {
-    font-size: 1.95em;
-  }
-}
-
-@media only screen and (max-width: 660px) {
-  .copyright_social {
-    display: block;
-  }
-
-  .copyright_social p {
-    text-align: center;
-  }
-
-  .socialMedia_logo {
-    margin: 0;
-    flex: none;
-  }
-
-  .socialMedia_logo ul {
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 634px) {
-
-  .header-text_left {
-    text-align: center;
-    display: block;
-  }
-
-  .header-btn_right {
-    display: block;
-    float: none;
-    text-align: center;
-  }
-
-  .second_part p {
-    margin-top: 0.795em;
-  }
-}
-
-@media only screen and (max-width:880px) {
-  .flex_container {
+@media only screen and (max-width:660px) {
+  .footer__container {
     display: block;
     text-align: center;
   }
 
-  .logo_contact {
-    text-align: center;
+  .affiliated__title {
+    margin-bottom: 20px;
   }
 
-  .Affiliated_By {
-    display: block;
-    text-align: center;
+  .pokhara__container {
+    margin-left: 3.875em;
+  }
+
+  .socialmedia__container {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .socialmedia__title {
+    padding-bottom: 10px;
   }
 }
 
-@media only screen and (max-width: 1357px) {
-  .second_part p {
-    margin-right: 0;
+@media only screen and (max-width:553px) {
+  .header-second__text {
+    font-size: 1.8em;
   }
 }
 
 /********** RP for 425px ***************/
 
 /* @import "./Responsive/RP(425).css"; */
+
+@media only screen and (max-width:700px) {}
 
 /********** RP for 375px ***************/
 

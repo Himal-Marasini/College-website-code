@@ -6,6 +6,7 @@ let image = document.querySelector('.image__container');
 let container = document.querySelector('.section__container-image');
 const menu = document.querySelector(".menu");
 const forList = document.querySelector("nav ul");
+const nav = document.querySelector('nav');
 var timing_Fnc;
 let contr = 0;
 
@@ -16,9 +17,11 @@ menu.addEventListener("click", e => {
     contr += 1;
     if (contr === 1) {
         forList.style.display = "block";
+        nav.style.height = "auto";
     } else if (contr === 2) {
         forList.style.display = "none";
         contr = 0;
+        nav.style.height = '41px';
     }
 });
 

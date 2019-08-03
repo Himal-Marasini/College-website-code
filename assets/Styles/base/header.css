@@ -58,7 +58,6 @@
     text-transform: capitalize;
     float: right;
     margin-top: 0.625em;
-    /* margin-right: 5em; */
     font-family: Dancing Script;
     font-size: 2.353em;
 }
@@ -81,10 +80,15 @@
 
 .header-nav__items {
     display: inline-block;
-    margin-left: 68px;
+    margin-left: 4.25em;
     margin-right: 0;
 }
 
 .menu {
+    width: 40px;
+    height: auto;
+    float: right;
     display: none;
+    cursor: pointer;
+    outline: none;
 }
