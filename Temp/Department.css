@@ -155,6 +155,7 @@ li {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-column-gap: 1em;
+  grid-row-gap: 1.375em;
   text-align: center;
   font-size: 0.888em;
   color: #212121;
@@ -165,19 +166,23 @@ li {
   margin: 0 auto;
 }
 
+.department__container {
+  /* .disable_shadow { */
+  width: auto;
+  height: auto;
+  margin-top: 1.375em;
+}
+
+.department__container:hover {
+  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.1);
+}
+
 .department__title {
   text-align: center;
   text-transform: uppercase;
   margin-top: 1.875em;
   font-size: 1.333em;
   font-weight: 500;
-}
-
-.department__container {
-  /* .disable_shadow { */
-  width: auto;
-  height: auto;
-  margin: 1.375em;
 }
 
 .department__image {
@@ -195,10 +200,6 @@ li {
 .department__position-title {
   /* .disable_shadow span { */
   color: red;
-}
-
-.department__container:hover {
-  box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.1);
 }
 
 .btn--small {
