@@ -1,62 +1,15 @@
-@media only screen and (max-width: 768px) {
-  .row {
-    width: 748px;
-  }
+@media only screen and (max-width: 1186px) {
+    .row {
+        width: 90%;
+        /* background: green; */
+    }
 
-  /************** HEADER *******************/
+    .department {
+        /* margin-left: 0;
+        display: inline-block; */
+    }
 
-  .second_part p {
-    margin-top: 20px;
-    margin-right: 0;
-  }
-
-  nav {
-    width: auto;
-    height: 41px;
-    position: relative;
-  }
-
-  nav ul {
-    display: none;
-  }
-
-  nav li {
-    display: block;
-    border-bottom: 1px solid white;
-    font-weight: 550;
-    margin: 0;
-    background-color: #3498db;
-  }
-
-  a {
-    color: white;
-  }
-
-  .menu {
-    width: 40px;
-    height: 34px;
-    float: right;
-    margin-right: 5px;
-    position: absolute;
-    top: 5px;
-    right: 7px;
-    display: block;
-  }
-
-  /****************** SECTION *****************/
-  .container {
-    margin-left: 0;
-  }
-  .forsection_overlay .row {
-    width: 768px;
-  }
-  .for_shadow,
-  .disable_shadow {
-    padding: 0 4px;
-  }
-  .main_container {
-    width: 628px;
-    padding-bottom: 10px;
-    transform: translate(63px, 100px);
-  }
+    .department__container {
+        width: 100%;
+    }
 }

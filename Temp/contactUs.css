@@ -114,7 +114,6 @@ li {
     text-transform: capitalize;
     float: right;
     margin-top: 0.625em;
-    /* margin-right: 5em; */
     font-family: Dancing Script;
     font-size: 2.353em;
 }
@@ -137,12 +136,17 @@ li {
 
 .header-nav__items {
     display: inline-block;
-    margin-left: 68px;
+    margin-left: 4.25em;
     margin-right: 0;
 }
 
 .menu {
+    width: 40px;
+    height: auto;
+    float: right;
     display: none;
+    cursor: pointer;
+    outline: none;
 }
 
 /********** SECTION ***************/
@@ -181,278 +185,123 @@ li {
 /********** FOOTER ***************/
 
 footer {
-  background: url(../assets/Images/grayBg.jpg) 0 0 no-repeat fixed;
-  width: 100%;
-  height: auto;
-  margin-top: 140px;
+    width: 100%;
+    height: auto;
+    margin-top: 2.5em;
+}
+
+.footer__overlay {
+    background-color: rgba(52, 152, 219, 0.9);
+    width: 100%;
+    height: auto;
 }
 
 .footer__container {
-  display: flex;
+    display: flex;
+}
+
+#Footerlogo {
+    width: 8.75em;
+    height: auto;
+}
+
+.contact__container {
+    margin-left: 1.25em;
+    font-family: montserrat;
+    color: #212121;
+    font-size: 0.889em;
+    margin-top: 1.25em;
+    flex: 2;
+}
+
+.contact__title,
+.affiliated__title {
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.contact__text {
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.affiliated__container {
+    margin-top: 1.25em;
+}
+
+.ctevt__container {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+}
+
+.ctevt__caption {
+    text-align: center;
+}
+
+.pokhara__container {
+    display: inline-block;
+    margin-left: 1.875em;
+    color: white;
+    font-weight: 600;
+}
+
+#puLogo {
+    margin-left: 2.5em;
+}
+
+.copyright__container {
+    flex: 2;
+}
+
+.copyright__text {
+    flex: 2;
+    font-size: 0.920em;
+    margin-top: 1.875em;
+    margin-left: 1.25em;
+    font-weight: 400;
+}
+
+.socialmedia__container {
+    flex: 1;
+    margin-left: 18%;
+}
+
+.socialmedia__title {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.socialIcon {
+    width: 30px;
+    height: 30px;
 }
 
 .footer__text {
-  text-align: center;
-  font-size: 0.888em;
-  margin-top: 20px
+    text-align: center;
+    font-size: 0.888em;
+    margin-top: 20px
 }
 
 .footer__link {
-  color: white;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.footer__copyright-container {
-  flex-basis: 65%;
-  margin-top: 30px;
-}
-
-.footer__copyright-container__text {
-  margin-top: 50px;
-  margin-left: 20px;
-  font-weight: 500;
-}
-
-.footer__affiliated-container__subtitle {
-  font-family: montserrat;
-  font-size: 1em;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.footer__affiliated-container {
-  margin-top: 10px;
-}
-
-.footer__ctevt-container {
-  display: inline-block;
-  color: white;
-  font-weight: 600;
-}
-
-figcaption {
-  text-align: center;
-}
-
-.footer__pokhara-container {
-  display: inline-block;
-  margin-left: 30px;
-  color: white;
-  font-weight: 600;
-}
-
-.footer__pokhara-logo {
-  margin-left: 40px;
-}
-
-.forOverlay {
-  background-color: rgba(52, 152, 219, 0.9);
-  width: 100%;
-  height: auto;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 /********** RP for 768px ***************/
 
-@media only screen and (max-width: 768px) {
-  .row {
-    width: 748px;
-  }
-
-  /************** HEADER *******************/
-
-  .second_part p {
-    margin-top: 20px;
-    margin-right: 0;
-  }
-
-  nav {
-    width: auto;
-    height: 41px;
-    position: relative;
-  }
-
-  nav ul {
-    display: none;
-  }
-
-  nav li {
-    display: block;
-    border-bottom: 1px solid white;
-    font-weight: 550;
-    margin: 0;
-    background-color: #3498db;
-  }
-
-  a {
-    color: white;
-  }
-
-  .menu {
-    width: 40px;
-    height: 34px;
-    float: right;
-    margin-right: 5px;
-    position: absolute;
-    top: 5px;
-    right: 7px;
-    display: block;
-  }
-  .copyright_social {
-    order: 2;
-    flex-basis: 50%;
-  }
-  .Affiliated_By {
-    order: 1;
-    text-align: center;
-  }
-  .ctevt {
-    margin-left: 40px;
-  }
-}
+/* @import "./Responsive/RP(768).css"; */
 
 /********** RP for 425px ***************/
 
-@media only screen and (max-width: 425px) {
-  html {
-    font-size: 1em;
-  }
-
-  .row {
-    width: 400px;
-  }
-
-  /************** HEADER *******************/
-  header p {
-    margin-left: 10px;
-    padding-top: 5px;
-  }
-
-  .forfillForm {
-    display: block;
-    text-align: center;
-    line-height: 14px;
-    text-decoration: underline;
-    font-weight: 600;
-  }
-
-  .top_part {
-    padding-bottom: 0;
-  }
-
-  #one_logo {
-    width: 140px;
-  }
-
-  .second_part p {
-    margin-top: 4px;
-    font-size: 1.5em;
-  }
-
-  #Lec_pic {
-    width: 100%;
-  }
-
-  .dot {
-    height: 8px;
-    width: 8px;
-  }
-
-  .for_circle {
-    bottom: 23px;
-    left: 126px;
-  }
-
-  .forIconbtn {
-    width: 30px;
-    height: 51px;
-  }
-
-  .btn {
-    display: none;
-    font-size: 0.725em;
-  }
-
-  #btnOne {
-    bottom: 64px;
-    left: 0;
-  }
-
-  .btn_one {
-    top: 55px;
-    left: 5px;
-  }
-
-  .btn_two {
-    top: 53px;
-    left: 382px;
-  }
-
-  #btnTwo {
-    bottom: 64px;
-    right: 0;
-  }
-  .contact_us {
-    margin-top: 20px;
-    display: block;
-    text-align: center;
-  }
-  .map {
-    float: none;
-  }
-  .footer_info {
-    display: block;
-  }
-  footer {
-    margin-top: 30px;
-  }
-  .copyright_social {
-    display: none;
-  }
-  .copyright_social_responsive {
-    font-size: 0.778em;
-    margin-top: 30px;
-    margin-left: 20px;
-    font-weight: 500;
-  }
-}
+/* @import "./Responsive/RP(425).css"; */
 
 /********** RP for 375px ***************/
 
-@media only screen and (max-width: 375px) {
-  .row {
-    width: 375px;
-  }
-
-  /************** HEADER *******************/
-  .second_part p {
-    font-size: 1.3em;
-  }
-}
+/* @import "./Responsive/RP(375).css"; */
 
 /********** RP for 320px ***************/
 
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 1em;
-  }
-
-  .row {
-    width: 320px;
-  }
-
-  header p {
-    margin-left: 4px;
-    text-transform: capitalize;
-  }
-
-  #one_logo {
-    width: 150px;
-  }
-  .second_part p {
-    display: none;
-  }
-  .ctevt {
-    margin-left: 20px;
-  }
-}
+/* @import "./Responsive/RP(320).css"; */

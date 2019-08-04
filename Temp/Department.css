@@ -114,7 +114,6 @@ li {
     text-transform: capitalize;
     float: right;
     margin-top: 0.625em;
-    /* margin-right: 5em; */
     font-family: Dancing Script;
     font-size: 2.353em;
 }
@@ -137,58 +136,64 @@ li {
 
 .header-nav__items {
     display: inline-block;
-    margin-left: 68px;
+    margin-left: 4.25em;
     margin-right: 0;
 }
 
 .menu {
+    width: 40px;
+    height: auto;
+    float: right;
     display: none;
+    cursor: pointer;
+    outline: none;
 }
 
 /********** SECTION FOR DEPARTMENT ***************/
 
-section h5 {
+.department {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-column-gap: 1em;
+  text-align: center;
+  font-size: 0.888em;
+  color: #212121;
+}
+
+.department__row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.department__title {
   text-align: center;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 1.875em;
   font-size: 1.333em;
   font-weight: 500;
 }
 
-.department {
-  display: flex;
-  text-align: center;
-  font-size: 0.888em;
-  margin-top: 20px;
-  margin-left: 75px;
-  color: #212121;
-  /* align-items: center; */
-  /* justify-content: center; */
-  margin-left: 12%;
+.department__container {
+  /* .disable_shadow { */
+  width: auto;
+  height: auto;
+  margin: 1.375em;
 }
 
 .department__image {
-  width: 140px;
-  height: 110px;
+  width: 8.75em;
+  height: 6.87em;
   background-color: coral;
-  margin: 20px auto 0 auto;
+  margin: 1.25em auto 0 auto;
 }
 
 .department__position {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
-.department__container,
-.disable_shadow {
-  width: auto;
-  height: auto;
-  flex-basis: 1fr;
-  padding: 0px 20px;
-}
-
-.department__position-title,
-.disable_shadow span {
+.department__position-title {
+  /* .disable_shadow span { */
   color: red;
 }
 
@@ -199,10 +204,10 @@ section h5 {
 .btn--small {
   text-decoration: none;
   border-radius: 25px;
-  margin-bottom: 20px;
-  height: 41px;
-  width: 128px;
-  padding-top: 3px;
+  margin-bottom: 1.25em;
+  width: 8em;
+  height: 2.56em;
+  padding-top: 0.18;
 }
 
 .btn--view-profile {
@@ -220,11 +225,11 @@ section h5 {
   background-color: #3498db;
   text-decoration: none;
   border-radius: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   display: inline-block;
-  height: 41px;
-  width: 128px;
-  padding-top: 3px;
+  width: 8em;
+  height: 2.56em;
+  padding-top: 0.18;
 }
 
 /********** MODAL ***************/
@@ -307,7 +312,7 @@ section h5 {
 footer {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .footer__overlay {
@@ -321,16 +326,16 @@ footer {
 }
 
 #Footerlogo {
-    width: 140px;
+    width: 8.75em;
     height: auto;
 }
 
 .contact__container {
-    margin-left: 20px;
+    margin-left: 1.25em;
     font-family: montserrat;
     color: #212121;
     font-size: 0.889em;
-    margin-top: 20px;
+    margin-top: 1.25em;
     flex: 2;
 }
 
@@ -347,7 +352,7 @@ footer {
 }
 
 .affiliated__container {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .ctevt__container {
@@ -362,13 +367,13 @@ footer {
 
 .pokhara__container {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875em;
     color: white;
     font-weight: 600;
 }
 
 #puLogo {
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .copyright__container {
@@ -378,8 +383,8 @@ footer {
 .copyright__text {
     flex: 2;
     font-size: 0.920em;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 1.875em;
+    margin-left: 1.25em;
     font-weight: 400;
 }
 
@@ -412,360 +417,149 @@ footer {
 
 /********** RP for 768px ***************/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1285px) {
+  .header-nav__items {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (max-width: 1172px) {
+  .header-nav__items {
+    margin-left: 2.6em;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .header-nav__items {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 1029px) {
   .row {
-    width: 748px;
+    width: 90%;
   }
 
-  /************** HEADER *******************/
+  .header-nav__items {
+    margin-left: 1em;
+    text-align: left;
+  }
+}
 
-  .second_part p {
-    margin-top: 20px;
-    margin-right: 0;
+/* 
+@media only screen and (max-width:909px) {
+  .row {
+    width: 90%;
+    text-align: left;
   }
 
-  nav {
-    width: auto;
-    height: 41px;
-    position: relative;
+  .header-nav__items {
+    margin-left: 1em;
   }
+} */
 
-  nav ul {
-    display: none;
+@media only screen and (max-width:855px) {
+  .header-nav__items {
+    margin-left: .8em;
   }
+}
 
-  nav li {
+@media only screen and (max-width:833px) {
+  .header-nav__items {
     display: block;
-    border-bottom: 1px solid white;
-    font-weight: 550;
     margin: 0;
-    background-color: #3498db;
-  }
-
-  a {
-    color: white;
+    text-align: center;
   }
 
   .menu {
-    width: 40px;
-    height: 34px;
-    float: right;
-    margin-right: 5px;
-    position: absolute;
-    top: 5px;
-    right: 7px;
     display: block;
   }
+}
 
-  /****************** SECTION *****************/
-  .container {
+@media only screen and (max-width: 769px) {
+  .row {
+    width: 95%;
+  }
+
+  .header__text {
+    display: block;
+    text-align: center;
+  }
+
+  .header__buttonContainer {
+    float: none;
+    text-align: center;
+  }
+
+  .top_btn {
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
+  }
+
+  #header_logo {
+    width: 9em;
+  }
+
+  .header-second__text {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width:660px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
+
+  .affiliated__title {
+    margin-bottom: 20px;
+  }
+
+  .pokhara__container {
+    margin-left: 3.875em;
+  }
+
+  .socialmedia__container {
     margin-left: 0;
+    margin-top: 10px;
   }
-  .forsection_overlay .row {
-    width: 768px;
-  }
-  .for_shadow,
-  .disable_shadow {
-    padding: 0 4px;
-  }
-  .main_container {
-    width: 628px;
+
+  .socialmedia__title {
     padding-bottom: 10px;
-    -webkit-transform: translate(63px, 100px);
-            transform: translate(63px, 100px);
   }
+}
+
+@media only screen and (max-width:553px) {
+  .header-second__text {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 1186px) {
+    .row {
+        width: 90%;
+        /* background: green; */
+    }
+
+    .department {
+        /* margin-left: 0;
+        display: inline-block; */
+    }
+
+    .department__container {
+        width: 100%;
+    }
 }
 
 /********** RP for 425px ***************/
 
-@media only screen and (max-width: 425px) {
-  html {
-    font-size: 1em;
-  }
-
-  .row {
-    width: 400px;
-  }
-
-  /************** HEADER *******************/
-  header p {
-    margin-left: 10px;
-    padding-top: 5px;
-  }
-
-  .forfillForm {
-    display: block;
-    text-align: center;
-    line-height: 14px;
-    text-decoration: underline;
-    font-weight: 600;
-    padding: 0;
-  }
-
-  .top_part {
-    padding-bottom: 0;
-  }
-
-  .top_btn {
-    display: none;
-  }
-
-  #one_logo {
-    width: 140px;
-  }
-
-  .second_part p {
-    margin-top: 4px;
-    font-size: 1.5em;
-  }
-
-  #Lec_pic {
-    width: 100%;
-  }
-
-  .dot {
-    height: 8px;
-    width: 8px;
-  }
-
-  .for_circle {
-    bottom: 23px;
-    left: 126px;
-  }
-
-  .forIconbtn {
-    width: 30px;
-    height: 51px;
-  }
-
-  .btn {
-    font-size: 0.725em;
-  }
-
-  #btnOne {
-    bottom: 64px;
-    left: 0;
-  }
-
-  .btn_one {
-    top: 55px;
-    left: 5px;
-  }
-
-  .btn_two {
-    top: 53px;
-    left: 382px;
-  }
-
-  #btnTwo {
-    bottom: 64px;
-    right: 0;
-  }
-
-  /************** SECTION ******************/
-  .forsection_overlay .row {
-    width: 420px;
-  }
-  .container {
-    display: block;
-  }
-  .for_shadow p {
-    text-align: center;
-  }
-  .main_container {
-    width: 394px;
-    -webkit-transform: translate(11px, 82px);
-            transform: translate(11px, 82px);
-  }
-  .modal_description {
-    font-size: 0.775em;
-  }
-
-  /************** FOOTER *******************/
-  footer {
-    margin-top: 20px;
-  }
-  footer h5 {
-    text-align: center;
-  }
-  .footer_info {
-    display: grid;
-    text-align: center;
-  }
-
-  .DivforLogo {
-    display: none;
-  }
-
-  .contact_Us {
-    order: 2;
-  }
-
-  .Affiliated_By {
-    order: 1;
-    margin-left: 50px;
-  }
-
-  .ctevt,
-  .pokharabg {
-    margin-top: 20px;
-  }
-
-  .copyright_social {
-    display: grid;
-  }
-
-  .copyright_social p {
-    margin-top: 0;
-  }
-
-  .copy_right {
-    order: 2;
-  }
-
-  .socialMedia_logo {
-    order: 1;
-    text-align: left;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .socialMedia_logo ul {
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .socialMedia_logo li {
-    margin-right: 15px;
-  }
-
-  .socialMedia_logo img {
-    height: 40px;
-    width: 40px;
-  }
-
-  .copy_right p {
-    text-align: center;
-    margin-top: 15px;
-  }
-}
+/* @import "./Responsive/RP(425).css"; */
 
 /********** RP for 375px ***************/
 
-@media only screen and (max-width: 375px) {
-  .row {
-    width: 360px;
-  }
-
-  /************** HEADER *******************/
-  header p {
-    margin-left: 0px;
-  }
-  #one_logo {
-    width: 130px;
-  }
-  .second_part p {
-    font-size: 1.4em;
-  }
-  .btn_one {
-    top: 40px;
-    left: 4px;
-  }
-  .btn_two {
-    top: 40px;
-    left: 331px;
-  }
-  /************** SECTION *******************/
-  .forsection_overlay .row {
-    width: 375px;
-  }
-  .main_container {
-    width: 369px;
-    -webkit-transform: translate(3px, 100px);
-            transform: translate(3px, 100px);
-  }
-  /************** FOOTER *******************/
-  .Affiliated_By {
-    margin-left: 0;
-  }
-  .copyright_social p {
-    margin-left: 10px;
-  }
-}
+/* @import "./Responsive/RP(375).css"; */
 
 /********** RP for 320px ***************/
 
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 1em;
-  }
-
-  .row {
-    width: 320px;
-  }
-
-  /************* HEADER ******************/
-  header p {
-    margin-left: 4px;
-    text-transform: capitalize;
-    padding-top: 0;
-  }
-
-  #one_logo {
-    width: 150px;
-  }
-  .second_part p {
-    display: none;
-  }
-  .forbox_shadow {
-    padding: 0;
-  }
-  .center_bold {
-    margin-bottom: 20px;
-  }
-  .forIconbtn {
-    width: 26px;
-    height: 38px;
-  }
-  .btn {
-    font-size: 0.625em;
-  }
-  #btnOne {
-    bottom: 58px;
-    left: 0;
-  }
-  .btn_one {
-    top: 42px;
-    left: 4px;
-  }
-  #btnTwo {
-    bottom: 58px;
-  }
-  .btn_two {
-    top: 43px;
-    left: 301px;
-  }
-
-  /************* SECTION ******************/
-  .forsection_overlay .row {
-    width: 320px;
-  }
-  .main_container {
-    width: 313px;
-  }
-  .modelProfile_pic {
-    width: 150px;
-  }
-
-  /************* FOOTER ******************/
-  .Affiliated_By {
-    margin-left: 0;
-  }
-  .pokharabg {
-    display: block;
-    margin-left: 0;
-  }
-  #puLogo {
-    margin-left: 0;
-  }
-}
+/* @import "./Responsive/RP(320).css"; */
