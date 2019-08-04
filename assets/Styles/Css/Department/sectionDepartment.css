@@ -1,6 +1,6 @@
 .department {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1em;
   grid-row-gap: 1.375em;
   text-align: center;

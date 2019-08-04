@@ -1,15 +1,15 @@
-@media only screen and (max-width: 1186px) {
-    .row {
-        width: 90%;
-        /* background: green; */
+@media only screen and (max-width: 900px) {
+    .department {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row__department {
+        width: 100%;
     }
 
     .department {
-        /* margin-left: 0;
-        display: inline-block; */
-    }
-
-    .department__container {
-        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
