@@ -90,6 +90,7 @@ li {
     background: none;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .btn--blue {
@@ -114,7 +115,6 @@ li {
     text-transform: capitalize;
     float: right;
     margin-top: 0.625em;
-    /* margin-right: 5em; */
     font-family: Dancing Script;
     font-size: 2.353em;
 }
@@ -137,28 +137,31 @@ li {
 
 .header-nav__items {
     display: inline-block;
-    margin-left: 68px;
+    margin-left: 4.25em;
     margin-right: 0;
 }
 
 .menu {
+    width: 40px;
+    height: auto;
+    float: right;
     display: none;
+    cursor: pointer;
+    outline: none;
 }
 
 /********** SECTION ***************/
 
 .toggle {
-  display: inline-block;
-  -webkit-transform: translate(378px, 26px);
-          transform: translate(378px, 26px);
-  position: relative;
+  width: 60%;
+  -webkit-transform: translate(53%, 72%);
+          transform: translate(53%, 72%);
 }
 
 .toggle__container {
-  width: 140px;
-  height: 34px;
+  width: 21%;
+  height: 90%;
   background-color: #ecf0f1;
-  display: inline-block;
   position: absolute;
   text-align: center;
   cursor: pointer;
@@ -185,18 +188,18 @@ li {
 }
 
 #bachelor {
-  left: 139px;
+  left: 21%;
 }
 
 #master {
-  left: 279px;
+  left: 42%;
   border-radius: 0px 15px 15px 0px;
 }
 
 .tooltip {
   position: relative;
   display: inline-block;
-  left: 431px;
+  left: 65%;
 }
 
 #tooltip__icon {
@@ -241,15 +244,15 @@ li {
 }
 
 .feature__container {
-  margin-left: 50px;
+  margin-left: 3.125em;
   display: block;
 }
 
 .feature__icon {
-  width: 70px;
-  height: 70px;
+  width: 4.375em;
+  height: 4.375em;
   vertical-align: super;
-  margin-right: 30px;
+  margin-right: 1.875em;
 }
 
 .feature__title {
@@ -258,15 +261,15 @@ li {
 }
 
 .feature__text {
-  width: 900px;
+  width: 83%;
   display: inline-block;
   margin-top: 50px;
 }
 
 .btn--large {
   font-size: 1em;
-  margin-left: 105px;
-  margin-top: 25px;
+  margin-left: 6.5625em;
+  margin-top: 1.56;
   background-color: #3498db;
   border-radius: 3px;
   font-family: montserrat;
@@ -279,7 +282,7 @@ li {
 footer {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .footer__overlay {
@@ -293,16 +296,16 @@ footer {
 }
 
 #Footerlogo {
-    width: 140px;
+    width: 8.75em;
     height: auto;
 }
 
 .contact__container {
-    margin-left: 20px;
+    margin-left: 1.25em;
     font-family: montserrat;
     color: #212121;
     font-size: 0.889em;
-    margin-top: 20px;
+    margin-top: 1.25em;
     flex: 2;
 }
 
@@ -319,7 +322,7 @@ footer {
 }
 
 .affiliated__container {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .ctevt__container {
@@ -334,13 +337,13 @@ footer {
 
 .pokhara__container {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 1.875em;
     color: white;
     font-weight: 600;
 }
 
 #puLogo {
-    margin-left: 40px;
+    margin-left: 2.5em;
 }
 
 .copyright__container {
@@ -350,8 +353,8 @@ footer {
 .copyright__text {
     flex: 2;
     font-size: 0.920em;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 1.875em;
+    margin-left: 1.25em;
     font-weight: 400;
 }
 
@@ -382,366 +385,167 @@ footer {
     text-decoration: none;
 }
 
-/********** RP for 768px ***************/
+/********** Responsive ***************/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1285px) {
+  .header-nav__items {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (max-width: 1172px) {
+  .header-nav__items {
+    margin-left: 2.6em;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .header-nav__items {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 1029px) {
   .row {
-    width: 748px;
+    width: 90%;
   }
 
-  /************** HEADER *******************/
+  .header-nav__items {
+    margin-left: 1em;
+    text-align: left;
+  }
+}
 
-  .second_part p {
-    margin-top: 20px;
-    margin-right: 0;
+/* 
+@media only screen and (max-width:909px) {
+  .row {
+    width: 90%;
+    text-align: left;
   }
 
-  nav {
-    width: auto;
-    height: 41px;
-    position: relative;
+  .header-nav__items {
+    margin-left: 1em;
   }
+} */
 
-  nav ul {
-    display: none;
+@media only screen and (max-width:855px) {
+  .header-nav__items {
+    margin-left: .8em;
   }
+}
 
-  nav li {
+@media only screen and (max-width:833px) {
+  .header-nav__items {
     display: block;
-    border-bottom: 1px solid white;
-    font-weight: 550;
     margin: 0;
-    background-color: #3498db;
-  }
-
-  a {
-    color: white;
+    text-align: center;
   }
 
   .menu {
     display: block;
-    width: 40px;
-    height: 34px;
-    float: right;
-    margin-right: 5px;
-    position: absolute;
-    top: 5px;
-    right: 7px;
-  }
-
-  /************** SECTION *******************/
-  .toggle_Container {
-    -webkit-transform: translate(177px, 26px);
-            transform: translate(177px, 26px);
-  }
-
-  .payment {
-    margin-top: 60px;
-  }
-
-  .text {
-    width: 592px;
   }
 }
 
-/********** RP for 425px ***************/
-
-@media only screen and (max-width: 425px) {
-  html {
-    font-size: 1em;
-  }
-
+@media only screen and (max-width: 769px) {
   .row {
-    width: 400px;
+    width: 95%;
   }
 
-  /************** HEADER *******************/
-  header p {
-    margin-left: 10px;
-    padding-top: 5px;
-  }
-
-  .top_part {
-    padding-bottom: 0;
-  }
-
-  .forfillForm {
+  .header__text {
     display: block;
     text-align: center;
-    line-height: 14px;
-    text-decoration: underline;
-    font-weight: 600;
+  }
+
+  .header__buttonContainer {
+    float: none;
+    text-align: center;
   }
 
   .top_btn {
-    display: none;
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
   }
 
-  #one_logo {
-    width: 140px;
+  #header_logo {
+    width: 9em;
   }
 
-  .second_part p {
-    margin-top: 4px;
-    font-size: 1.5em;
+  .header-second__text {
+    font-size: 2em;
   }
+}
 
-  #Lec_pic {
-    width: 100%;
-  }
-
-  .dot {
-    height: 10px;
-    width: 10px;
-  }
-
-  .for_circle {
-    bottom: 23px;
-    left: 145px;
-  }
-
-  .forIconbtn {
-    width: 30px;
-    height: 51px;
-  }
-
-  .btn {
-    display: none;
-    font-size: 0.725em;
-  }
-
-  #btnOne {
-    bottom: 64px;
-    left: 0;
-  }
-
-  .btn_one {
-    top: 37px;
-    left: -57px;
-  }
-
-  .btn_two {
-    top: 37px;
-    left: 319px;
-  }
-
-  #btnTwo {
-    bottom: 64px;
-    right: 0;
-  }
-
-  /****************** SECTION ********************/
-  .toggle_Container {
-    -webkit-transform: translate(3px, 26px);
-            transform: translate(3px, 26px);
-  }
-
-  .forToggling {
-    width: 125px;
-  }
-
-  #forBachelor {
-    left: 125px;
-  }
-
-  #forMaster {
-    left: 250px;
-  }
-
-  .tooltip {
-    left: 383px;
-  }
-
-  .payment,
-  .fill_form,
-  .result {
-    margin-left: 0;
-  }
-
-  #wallet,
-  #fill_form,
-  #result {
-    margin: 0 auto;
+@media only screen and (max-width:660px) {
+  .footer__container {
     display: block;
-  }
-
-  .text {
-    width: auto;
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  #btn {
-    margin: 25px auto 40px;
-  }
-
-  /************** FOOTER *******************/
-  footer {
-    margin-top: 20px;
-  }
-
-  footer h5 {
     text-align: center;
   }
 
-  .footer_info {
-    display: grid;
-    text-align: center;
+  .affiliated__title {
+    margin-bottom: 20px;
   }
 
-  .DivforLogo {
-    display: none;
+  .pokhara__container {
+    margin-left: 3.875em;
   }
 
-  .contact_Us {
-    order: 2;
-  }
-
-  .Affiliated_By {
-    order: 1;
-    margin-left: 50px;
-  }
-
-  .ctevt,
-  .pokharabg {
-    margin-top: 20px;
-  }
-
-  .copyright_social {
-    display: grid;
-  }
-
-  .copyright_social p {
-    margin-top: 0;
-  }
-
-  .copy_right {
-    order: 2;
-  }
-
-  .socialMedia_logo {
-    order: 1;
-    text-align: left;
+  .socialmedia__container {
     margin-left: 0;
-    text-align: center;
-  }
-
-  .socialMedia_logo ul {
     margin-top: 10px;
-    text-align: center;
   }
 
-  .socialMedia_logo li {
-    margin-right: 15px;
-  }
-
-  .socialMedia_logo img {
-    height: 40px;
-    width: 40px;
-  }
-
-  .copy_right p {
-    text-align: center;
-    margin-top: 15px;
+  .socialmedia__title {
+    padding-bottom: 10px;
   }
 }
 
-/********** RP for 375px ***************/
+@media only screen and (max-width:553px) {
+  .header-second__text {
+    font-size: 1.8em;
+  }
+}
 
-@media only screen and (max-width: 375px) {
-  .row {
-    width: 375px;
+@media only screen and (max-width: 834px) {
+  .toggle {
+    width: 75%;
+    -webkit-transform: translate(34%, 72%);
+            transform: translate(34%, 72%);
+  }
+}
+
+@media only screen and (max-width:717px) {
+  .feature__container {
+    margin-top: 50px;
   }
 
-  /************** HEADER *******************/
-  .second_part p {
-    font-size: 1.3em;
-  }
-  .toggle_Container {
-    -webkit-transform: translate(10px, 26px);
-            transform: translate(10px, 26px);
-  }
-  .forToggling {
-    width: 110px;
-  }
-  #forBachelor {
-    left: 110px;
-  }
-  #forMaster {
-    left: 220px;
-  }
-  .tooltip {
-    left: 339px;
-  }
-  .tooltiptext {
-    width: 210px;
-    padding: 0;
-    top: -2px;
-    right: 151%;
-  }
-  .tooltiptext::after {
-    top: 31%;
-    right: -4%;
-    margin-top: 0;
-    border-color: transparent transparent transparent black;
-  }
-  .Affiliated_By {
-    margin-left: 0;
-  }
-  #puLogo {
-    margin-left: 0;
-  }
-  .pokharabg {
+  .feature__icon {
     display: block;
-    margin-left: 0;
+    margin-left: 33%;
   }
-  .contact_Us {
-    margin-left: 0;
+
+  .feature__text {
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
-/********** RP for 320px ***************/
+@media only screen and (max-width:640px) {
+  .toggle {
+    width: 84%;
+  }
+}
 
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 1em;
+@media only screen and (max-width:543px) {
+  .toggle {
+    width: 97%;
+    -webkit-transform: translate(21%, 72%);
+            transform: translate(21%, 72%);
   }
+}
 
-  .row {
-    width: 320px;
-  }
-
-  header p {
-    margin-left: 4px;
-    text-transform: capitalize;
-  }
-
-  #one_logo {
-    width: 150px;
-  }
-  .second_part p {
-    display: none;
-  }
-  .toggle_Container {
-    font-size: 14px;
-  }
-  .forToggling {
-    width: 93px;
-  }
-  #forBachelor {
-    left: 92px;
-  }
-  #forMaster {
-    left: 185px;
-  }
-  .tooltip {
-    left: 285px;
-  }
-  .tooltiptext {
-    widows: 185px;
-    padding: 3px;
-    top: -3px;
-    right: 0;
-    left: -189px;
+@media only screen and (max-width:500px) {
+  .toggle {
+    width: 100%;
   }
 }

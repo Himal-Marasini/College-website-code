@@ -1,0 +1,42 @@
+@media only screen and (max-width: 834px) {
+  .toggle {
+    width: 75%;
+    transform: translate(34%, 72%);
+  }
+}
+
+@media only screen and (max-width:717px) {
+  .feature__container {
+    margin-top: 50px;
+  }
+
+  .feature__icon {
+    display: block;
+    margin-left: 33%;
+  }
+
+  .feature__text {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .toggle {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width:543px) {
+  .toggle {
+    width: 97%;
+    transform: translate(21%, 72%);
+  }
+}
+
+
+@media only screen and (max-width:500px) {
+  .toggle {
+    width: 100%;
+  }
+}

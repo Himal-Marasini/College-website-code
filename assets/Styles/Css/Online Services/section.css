@@ -1,14 +1,12 @@
 .toggle {
-  display: inline-block;
-  transform: translate(378px, 26px);
-  position: relative;
+  width: 60%;
+  transform: translate(53%, 72%);
 }
 
 .toggle__container {
-  width: 140px;
-  height: 34px;
+  width: 21%;
+  height: 90%;
   background-color: #ecf0f1;
-  display: inline-block;
   position: absolute;
   text-align: center;
   cursor: pointer;
@@ -35,18 +33,18 @@
 }
 
 #bachelor {
-  left: 139px;
+  left: 21%;
 }
 
 #master {
-  left: 279px;
+  left: 42%;
   border-radius: 0px 15px 15px 0px;
 }
 
 .tooltip {
   position: relative;
   display: inline-block;
-  left: 431px;
+  left: 65%;
 }
 
 #tooltip__icon {
@@ -91,15 +89,15 @@
 }
 
 .feature__container {
-  margin-left: 50px;
+  margin-left: 3.125em;
   display: block;
 }
 
 .feature__icon {
-  width: 70px;
-  height: 70px;
+  width: 4.375em;
+  height: 4.375em;
   vertical-align: super;
-  margin-right: 30px;
+  margin-right: 1.875em;
 }
 
 .feature__title {
@@ -108,15 +106,15 @@
 }
 
 .feature__text {
-  width: 900px;
+  width: 83%;
   display: inline-block;
   margin-top: 50px;
 }
 
 .btn--large {
   font-size: 1em;
-  margin-left: 105px;
-  margin-top: 25px;
+  margin-left: 6.5625em;
+  margin-top: 1.56;
   background-color: #3498db;
   border-radius: 3px;
   font-family: montserrat;
