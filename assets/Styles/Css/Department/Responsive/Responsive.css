@@ -2,6 +2,10 @@
     .department {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .model__user-pic {
+        width: 37%;
+    }
 }
 
 @media only screen and (max-width: 600px) {

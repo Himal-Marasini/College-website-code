@@ -236,30 +236,22 @@ li {
 /********** MODAL ***************/
 
 .modal {
-  width: auto;
+  width: 68%;
   height: auto;
-  position: relative;
-  display: none;
-  margin: 0 auto;
   text-align: center;
-}
-
-.modal__container {
-  width: 916px;
-  height: auto;
   position: absolute;
   background-color: white;
   z-index: 2;
   margin: 0 auto;
-  padding-bottom: 30px;
-  -webkit-transform: translate(200px, 100px);
-          transform: translate(200px, 100px);
+  padding-bottom: 1.875em;
+  -webkit-transform: translate(22%, 18%);
+          transform: translate(22%, 18%);
   border-radius: 5px;
   box-shadow: 1px 5px 5px 3px rgb(0, 0, 0, 0.1);
 }
 
 .goBack {
-  width: 30px;
+  width: 1.875em;
   position: absolute;
   left: 20px;
   top: 40px;
@@ -267,19 +259,17 @@ li {
 }
 
 .model__profile-container {
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
-.model____user-pic {
-  width: 200px;
+.model__user-pic {
+  width: 28%;
   height: auto;
   margin: 0 auto;
-  display: block;
 }
 
 .modal__user-container {
   text-align: center;
-  margin-top: 10px;
 }
 
 .modal__name {
@@ -287,7 +277,7 @@ li {
 }
 
 .modal__description {
-  padding: 0 30px 0 30px;
+  padding: 0 1.875em 0 1.875em;
   font-size: 0.889em;
 }
 
@@ -416,7 +406,7 @@ footer {
     text-decoration: none;
 }
 
-/********** RP for 768px ***************/
+/********** Responsive CSS ***************/
 
 @media only screen and (max-width: 1285px) {
   .header-nav__items {
@@ -541,6 +531,10 @@ footer {
     .department {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .model__user-pic {
+        width: 37%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -552,15 +546,3 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/********** RP for 425px ***************/
-
-/* @import "./Responsive/RP(425).css"; */
-
-/********** RP for 375px ***************/
-
-/* @import "./Responsive/RP(375).css"; */
-
-/********** RP for 320px ***************/
-
-/* @import "./Responsive/RP(320).css"; */
