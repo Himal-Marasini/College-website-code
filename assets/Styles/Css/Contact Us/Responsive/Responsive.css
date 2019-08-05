@@ -1,0 +1,27 @@
+@media only screen and (max-width: 850px) {
+  .map {
+    float: none;
+    text-align: center;
+  }
+
+  .contact-us {
+    margin: 3.125em auto;
+    display: block;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__copyright-container {
+    margin-top: 2em;
+  }
+}

@@ -90,6 +90,7 @@ li {
     background: none;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .btn--blue {
@@ -182,12 +183,12 @@ li {
   margin-top: 30px;
 }
 
-/********** FOOTER ***************/
+/********* FOOTER ***************/
 
 footer {
     width: 100%;
     height: auto;
-    margin-top: 2.5em;
+    margin-top: 7.5em;
 }
 
 .footer__overlay {
@@ -198,6 +199,11 @@ footer {
 
 .footer__container {
     display: flex;
+    padding-top: 0.625em;
+}
+
+.footer__affiliated-container {
+    flex: 2;
 }
 
 #Footerlogo {
@@ -205,6 +211,34 @@ footer {
     height: auto;
 }
 
+.footer__ctevt-container,
+.footer__pokhara-container {
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.footer__ctevt-container {
+    margin-right: 5em;
+}
+
+.footer__copyright-container {
+    margin-top: 7em;
+}
+
+.footer__affiliated-container__subtitle {
+    font-family: montserrat;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.footer__text {
+    text-align: center;
+    margin-top: 1.875em;
+}
+
+/* 
 .contact__container {
     margin-left: 1.25em;
     font-family: montserrat;
@@ -273,6 +307,7 @@ footer {
     font-size: 1em;
 }
 
+
 .socialIcon {
     width: 30px;
     height: 30px;
@@ -288,20 +323,153 @@ footer {
     color: white;
     font-weight: 600;
     text-decoration: none;
+} */
+
+/********** Responsive ***************/
+
+@media only screen and (max-width: 1285px) {
+  .header-nav__items {
+    margin-left: 3.25em;
+  }
 }
 
-/********** RP for 768px ***************/
+@media only screen and (max-width: 1172px) {
+  .header-nav__items {
+    margin-left: 2.6em;
+  }
+}
 
-/* @import "./Responsive/RP(768).css"; */
+@media only screen and (max-width: 1158px) {
+  .header-nav__items {
+    margin-left: 2em;
+  }
+}
 
-/********** RP for 425px ***************/
+@media only screen and (max-width: 1029px) {
+  .row {
+    width: 90%;
+  }
 
-/* @import "./Responsive/RP(425).css"; */
+  .header-nav__items {
+    margin-left: 1em;
+    text-align: left;
+  }
+}
 
-/********** RP for 375px ***************/
+/* 
+@media only screen and (max-width:909px) {
+  .row {
+    width: 90%;
+    text-align: left;
+  }
 
-/* @import "./Responsive/RP(375).css"; */
+  .header-nav__items {
+    margin-left: 1em;
+  }
+} */
 
-/********** RP for 320px ***************/
+@media only screen and (max-width:855px) {
+  .header-nav__items {
+    margin-left: .8em;
+  }
+}
 
-/* @import "./Responsive/RP(320).css"; */
+@media only screen and (max-width:833px) {
+  .header-nav__items {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .row {
+    width: 95%;
+  }
+
+  .header__text {
+    display: block;
+    text-align: center;
+  }
+
+  .header__buttonContainer {
+    float: none;
+    text-align: center;
+  }
+
+  .top_btn {
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
+  }
+
+  #header_logo {
+    width: 9em;
+  }
+
+  .header-second__text {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width:660px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
+
+  .affiliated__title {
+    margin-bottom: 20px;
+  }
+
+  .pokhara__container {
+    margin-left: 3.875em;
+  }
+
+  .socialmedia__container {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .socialmedia__title {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width:553px) {
+  .header-second__text {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .map {
+    float: none;
+    text-align: center;
+  }
+
+  .contact-us {
+    margin: 3.125em auto;
+    display: block;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__copyright-container {
+    margin-top: 2em;
+  }
+}
