@@ -8,36 +8,35 @@
 
 .icon__container {
   display: inline-block;
-  width: 3.188em;
-  height: 5em;
+  width: 4%;
+  height: 22%;
   background-color: #212121;
   position: absolute;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .icon--left-container {
   bottom: 9em;
-  left: 2.438em;
+  left: 2.51em;
+}
+
+.icon--right-container {
+  bottom: 9.063em;
+  right: 2.51em;
 }
 
 .icon--left-arrow {
-
   opacity: 0.3;
   transition: opacity 100ms linear;
 }
 
 .fa-arrow-left,
 .fa-arrow-right {
-  position: absolute;
-  top: 26px;
-  left: 10px;
+  margin-top: 0.7em;
+  margin-left: 0.3em;
   font-size: 1.833em;
   color: #fff;
-}
-
-.icon--right-container {
-  bottom: 9.063em;
-  right: 2.5em;
 }
 
 .icon--right-arrow {
@@ -52,13 +51,13 @@
 
 .section__toggle-container {
   position: absolute;
-  bottom: 2.25em;
-  left: 31.375em;
+  bottom: 11%;
+  left: 43%;
 }
 
 .dot {
-  height: 0.938em;
   width: 0.938em;
+  height: 0.938em;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
   display: inline-block;

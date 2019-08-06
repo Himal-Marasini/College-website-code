@@ -92,6 +92,7 @@ li {
     background: none;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .btn--blue {
@@ -225,36 +226,35 @@ li {
 
 .icon__container {
   display: inline-block;
-  width: 3.188em;
-  height: 5em;
+  width: 4%;
+  height: 22%;
   background-color: #212121;
   position: absolute;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .icon--left-container {
   bottom: 9em;
-  left: 2.438em;
+  left: 2.51em;
+}
+
+.icon--right-container {
+  bottom: 9.063em;
+  right: 2.51em;
 }
 
 .icon--left-arrow {
-
   opacity: 0.3;
   transition: opacity 100ms linear;
 }
 
 .fa-arrow-left,
 .fa-arrow-right {
-  position: absolute;
-  top: 26px;
-  left: 10px;
+  margin-top: 0.7em;
+  margin-left: 0.3em;
   font-size: 1.833em;
   color: #fff;
-}
-
-.icon--right-container {
-  bottom: 9.063em;
-  right: 2.5em;
 }
 
 .icon--right-arrow {
@@ -269,13 +269,13 @@ li {
 
 .section__toggle-container {
   position: absolute;
-  bottom: 2.25em;
-  left: 31.375em;
+  bottom: 11%;
+  left: 43%;
 }
 
 .dot {
-  height: 0.938em;
   width: 0.938em;
+  height: 0.938em;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
   display: inline-block;
@@ -400,7 +400,7 @@ footer {
     text-decoration: none;
 }
 
-/********** RP for 768px ***************/
+/********** Responsive ***************/
 
 @media only screen and (max-width: 1285px) {
   .header-nav__items {
@@ -521,16 +521,191 @@ footer {
   }
 }
 
-/********** RP for 425px ***************/
+@media only screen and (max-width: 1280px) {
+  .icon--right-container {
+    right: 2.3em
+  }
 
-/* @import "./Responsive/RP(425).css"; */
+  .icon--left-container {
+    left: 2.32em;
+  }
+}
 
-@media only screen and (max-width:700px) {}
+@media only screen and (max-width:1200px) {
+  .icon--right-container {
+    right: 2.2em
+  }
 
-/********** RP for 375px ***************/
+  .icon--left-container {
+    left: 2.2em;
+  }
+}
 
-/* @import "./Responsive/RP(375).css"; */
+@media only screen and (max-width:1132px) {
 
-/********** RP for 320px ***************/
+  .fa-arrow-left,
+  .fa-arrow-right {
+    font-size: 1.5em;
+    margin-top: 0.9em;
+    margin-left: 0.4em;
+  }
 
-/* @import "./Responsive/RP(320).css"; */
+  .icon--right-container {
+    right: 2.04em;
+    bottom: 8em;
+  }
+
+  .icon--left-container {
+    left: 2.04em;
+    bottom: 8em;
+  }
+}
+
+@media only screen and (max-width:1043px) {
+
+  .fa-arrow-left,
+  .fa-arrow-right {
+    margin-top: 0.8em;
+    margin-left: 0.3em;
+  }
+
+  .icon--right-container {
+    right: 1.9em;
+    bottom: 7.6em;
+  }
+
+  .icon--left-container {
+    left: 1.9em;
+    bottom: 7.6em;
+  }
+}
+
+@media only screen and (max-width:960px) {
+
+  .fa-arrow-left,
+  .fa-arrow-right {
+    margin-top: 1em;
+  }
+
+  .icon__container {
+    width: 5%;
+    height: 28%;
+  }
+
+  .icon--right-container {
+    right: 1.75em;
+    bottom: 7.3em;
+  }
+
+  .icon--left-container {
+    left: 1.75em;
+    bottom: 7.3em;
+  }
+}
+
+@media only screen and (max-width:845px) {
+  .section__toggle-container {
+    left: 40%;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .fa-arrow-left,
+  .fa-arrow-right {
+    margin-top: 1em;
+  }
+
+  .icon--right-container {
+    right: 1.56em;
+    bottom: 6.3em;
+  }
+
+  .icon--left-container {
+    left: 1.56em;
+    bottom: 6.3em;
+  }
+}
+
+@media only screen and (max-width:788px) {
+
+  .section__toggle-container {
+    bottom: 14%;
+  }
+
+  .fa-arrow-left,
+  .fa-arrow-right {
+    font-size: 1.3em;
+    margin-top: 1.1em;
+  }
+
+  .icon--right-container {
+    right: 1.42em;
+    bottom: 6em;
+  }
+
+  .icon--left-container {
+    left: 1.42em;
+    bottom: 6em;
+  }
+}
+
+@media only screen and (max-width:664px) {
+  .section__toggle-container {
+    left: 38%;
+    bottom: 16%;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .icon__container {
+    width: 7%;
+    height: 32%;
+  }
+
+  .icon--right-container {
+    right: 1.19em;
+    bottom: 4.9em;
+  }
+
+  .icon--left-container {
+    left: 1.19em;
+    bottom: 4.9em;
+  }
+}
+
+@media only screen and (max-width:588px) {
+  .icon--right-container {
+    right: 1em;
+    bottom: 4.5em;
+  }
+
+  .icon--left-container {
+    left: 1em;
+    bottom: 4.5em;
+  }
+}
+
+@media only screen and (max-width:500px) {
+
+  .fa-arrow-left,
+  .fa-arrow-right {
+    font-size: 1.2em;
+    margin-top: 0.8em;
+  }
+
+  .icon--right-container {
+    right: 0.9em;
+    bottom: 3.9em;
+  }
+
+  .icon--left-container {
+    left: 0.9em;
+    bottom: 3.9em;
+  }
+}
