@@ -12,7 +12,7 @@
 /********** FOOTER ***************/
 @import "../../base/footer.css";
 
-/********** Responsive CSS ***************/
+/********** Responsive ***************/
 @import "../../base/RP(Head-Foot).css";
 
 @import "./Responsive/Responsive.css";
