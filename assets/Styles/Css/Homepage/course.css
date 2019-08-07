@@ -1,0 +1,97 @@
+.course {
+    margin-top: 80px;
+}
+
+.course__title {
+    color: #2980b9;
+    font-size: 1.8em;
+    font-family: Roboto;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.course__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+}
+
+.course__container {
+    width: 300px;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
+    background-color: white;
+    margin-top: 50px;
+    transition: left 2s linear;
+}
+
+.course__container::before {
+    width: 138px;
+    height: 30px;
+    position: absolute;
+    top: -30px;
+    color: white;
+    background-color: #3498db;
+    border-radius: 15px 15px 0px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container__list {
+    margin: 20px 0 20px 30px;
+}
+
+.container__list-item {
+    display: block;
+    font-weight: 600;
+}
+
+.container__list-item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #3498db;
+    margin-right: 13px;
+}
+
+.container--diploma::before {
+    content: "Diploma In :";
+    left: 52px;
+}
+
+.container--bachelor::before {
+    content: "Bachelor In :";
+    left: 74px;
+}
+
+.container--master::before {
+    content: "Master In :";
+    left: 74px;
+}
+
+/* #right_arrow_smallScreen {
+    display: none;
+}
+
+#left_arrow_smallScreen {
+    display: none;
+} */
+
+/* #right_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: none;
+}
+
+#left_arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: none;
+} */

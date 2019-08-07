@@ -10,28 +10,28 @@
 @import "./section.css";
 
 /********** SECTION : COURSE WE OFFER ***************/
-@import "./SecCourse.css";
+@import "./course.css";
 
 /********** SECTION : Co-Curricular activities ***************/
-@import "./SecCoCurri.css";
+@import "./co-curricular.css";
 
 /********** FOOTER ***************/
-@import "./footer.css";
+@import "../../base/footer.css";
 
 /********** RP for 960px ***************/
-@import "./Responsive/RP(960).css";
+/* @import "./Responsive/RP(960).css"; */
 
 /********** RP for 768px ***************/
-@import "./Responsive/RP(768).css";
+/* @import "./Responsive/RP(768).css"; */
 
 /********** RP for 684px ***************/
-@import "./Responsive/RP(684).css";
+/* @import "./Responsive/RP(684).css"; */
 
 /********** RP for 425px ***************/
-@import "./Responsive/RP(425).css";
+/* @import "./Responsive/RP(425).css"; */
 
 /********** RP for 375px ***************/
-@import "./Responsive/RP(375).css";
+/* @import "./Responsive/RP(375).css"; */
 
 /********** RP for 375px ***************/
 @import "./Responsive/RP(320).css";
