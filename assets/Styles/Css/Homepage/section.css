@@ -2,20 +2,23 @@ section {
     margin-top: 30px;
 }
 
-.principleMessage {
-    width: 65%;
+.principle-updates__container {
+    display: grid;
+    grid-template-columns: 5fr 3fr
+}
+
+.principle__container {
+    /* width: 65%; */
     height: 350px;
     background-color: red;
-    display: inline-block;
     border-radius: 2px;
 }
 
-.updates {
-    width: 30%;
-    height: 350px;
+.updates__container {
+    /* width: 30%; */
+    /* height: 350px; */
     background-color: #bdc3c7;
-    float: right;
-    margin-left: 50px;
+    margin-left: 1em;
     border-radius: 4px;
 }
 
@@ -27,7 +30,7 @@ section {
     font-size: 1em;
 }
 
-.updates__list {
+.updates__list-items {
     font-size: 0.778em;
     line-height: 28px;
     width: 100%;
@@ -43,10 +46,10 @@ section {
 }
 
 .doubleAngle {
-    height: 27px;
     width: 16px;
-    margin-left: 30px;
-    margin-top: 20px;
+    height: 27px;
+    margin-left: 1.875em;
+    margin-top: 1.25em;
     vertical-align: bottom;
     margin-right: 13px;
 }

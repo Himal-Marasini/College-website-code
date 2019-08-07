@@ -56,15 +56,10 @@ header {
 }
 
 .header__text {
-  display: inline-block;
   text-transform: uppercase;
   padding-top: 10px;
   color: white;
-}
-
-.forfillForm {
-  display: none;
-  color: black;
+  display: inline-block;
 }
 
 .header__buttonContainer {
@@ -74,35 +69,35 @@ header {
   font-weight: 600;
 }
 
+#header_logo {
+  width: 12.5em;
+}
+
 .btn {
-  width: 144px;
-  height: 40px;
+  width: 9em;
+  height: 2.5em;
   text-align: center;
-  padding-top: 4px;
-  margin-top: 7px;
+  padding-top: 0.1em;
+  margin-top: 0.438em;
   display: inline-block;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .btn--blue {
+  margin-top: 0.5em;
   background-color: #0288d1;
   color: white;
 }
 
 .btn--lightBlue {
-  margin-right: 15px;
+  margin-right: 0.938em;
+  margin-top: 0.5em;
   background-color: #b3e5fc;
   color: #212121;
-}
-
-.menu {
-  width: 40px;
-  height: auto;
-  float: right;
-  margin-top: 25px;
-  margin-right: 20px;
-  display: none;
-  cursor: pointer;
-  outline: none;
 }
 
 /********** MAIN ***************/
@@ -120,7 +115,6 @@ main .row {
 
 nav {
     float: right;
-    clear: both;
     padding-top: 40px;
     font-size: 0.889em;
 }
@@ -153,7 +147,7 @@ video {
 }
 
 #logo {
-    width: 140px;
+    width: 12%;
     height: auto;
     -webkit-transform: translate(-17px, -22px);
             transform: translate(-17px, -22px);
@@ -165,20 +159,23 @@ section {
     margin-top: 30px;
 }
 
-.principleMessage {
-    width: 65%;
+.principle-updates__container {
+    display: grid;
+    grid-template-columns: 5fr 3fr
+}
+
+.principle__container {
+    /* width: 65%; */
     height: 350px;
     background-color: red;
-    display: inline-block;
     border-radius: 2px;
 }
 
-.updates {
-    width: 30%;
-    height: 350px;
+.updates__container {
+    /* width: 30%; */
+    /* height: 350px; */
     background-color: #bdc3c7;
-    float: right;
-    margin-left: 50px;
+    margin-left: 1em;
     border-radius: 4px;
 }
 
@@ -190,7 +187,7 @@ section {
     font-size: 1em;
 }
 
-.updates__list {
+.updates__list-items {
     font-size: 0.778em;
     line-height: 28px;
     width: 100%;
@@ -206,10 +203,10 @@ section {
 }
 
 .doubleAngle {
-    height: 27px;
     width: 16px;
-    margin-left: 30px;
-    margin-top: 20px;
+    height: 27px;
+    margin-left: 1.875em;
+    margin-top: 1.25em;
     vertical-align: bottom;
     margin-right: 13px;
 }
@@ -217,7 +214,7 @@ section {
 /********** SECTION : COURSE WE OFFER ***************/
 
 .course {
-    margin-top: 80px;
+    margin-top: 5em;
 }
 
 .course__title {
@@ -236,21 +233,21 @@ section {
 }
 
 .course__container {
-    width: 300px;
+    width: 81%;
     height: auto;
     position: relative;
     border-radius: 5px;
     box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
     background-color: white;
-    margin-top: 50px;
+    margin-top: 3.12em;
     transition: left 2s linear;
 }
 
 .course__container::before {
-    width: 138px;
-    height: 30px;
+    width: 46%;
+    height: 13%;
     position: absolute;
-    top: -30px;
+    bottom: 100%;
     color: white;
     background-color: #3498db;
     border-radius: 15px 15px 0px 0px;
@@ -259,12 +256,14 @@ section {
 }
 
 .container__list {
-    margin: 20px 0 20px 30px;
+    margin: 1.25em 0 1.25em 1.875px;
 }
 
 .container__list-item {
     display: block;
     font-weight: 600;
+    margin-right: 0;
+    margin-left: 1em;
 }
 
 .container__list-item::before {
@@ -274,22 +273,22 @@ section {
     border-radius: 50%;
     display: inline-block;
     background-color: #3498db;
-    margin-right: 13px;
+    margin-right: 0.81em;
 }
 
 .container--diploma::before {
     content: "Diploma In :";
-    left: 52px;
+    left: 18%;
 }
 
 .container--bachelor::before {
     content: "Bachelor In :";
-    left: 74px;
+    left: 25%;
 }
 
 .container--master::before {
     content: "Master In :";
-    left: 74px;
+    left: 26%;
 }
 
 /* #right_arrow_smallScreen {
@@ -333,11 +332,11 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .cocurricular-Activities__container {
-    flex-basis: 300px;
+    width: 27%;
     height: auto;
     border: 2px solid #3498db;
 }
@@ -347,10 +346,10 @@ section {
 }
 
 .cocurricular-Activities__image {
-    width: 200px;
-    height: auto;
-    margin-left: 47px;
-    margin-top: 20px;
+    width: 66%;
+    /* height: auto; */
+    margin-left: 2.93em;
+    margin-top: 1.25em;
     transition: -webkit-transform 900ms linear;
     transition: transform 900ms linear;
     transition: transform 900ms linear, -webkit-transform 900ms linear;
@@ -368,16 +367,16 @@ section {
 .cocurricular-Activities__title {
     font-weight: 500;
     font-size: 1em;
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 .cocurricular-Activities__text {
     font-size: 0.889em;
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 .angle_left {
-    padding-left: 3px;
+    padding-left: 0.18em;
 }
 
 .angle_right {
@@ -494,75 +493,186 @@ footer {
     text-decoration: none;
 }
 
-/********** RP for 960px ***************/
+/********** Responsive ***************/
 
-/* @import "./Responsive/RP(960).css"; */
-
-/********** RP for 768px ***************/
-
-/* @import "./Responsive/RP(768).css"; */
-
-/********** RP for 684px ***************/
-
-/* @import "./Responsive/RP(684).css"; */
-
-/********** RP for 425px ***************/
-
-/* @import "./Responsive/RP(425).css"; */
-
-/********** RP for 375px ***************/
-
-/* @import "./Responsive/RP(375).css"; */
-
-/********** RP for 375px ***************/
-
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 0.875em;
+@media only screen and (max-width: 1130px) {
+  .course__grid-container {
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  .course__container::before {
+    padding-bottom: 5px;
+  }
+
+  .container--master::before {
+    height: 29%;
+  }
+}
+
+@media only screen and (max-width: 714px) {
+  .course__grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .course__container::before {
+    padding-bottom: 0;
+  }
+
+  .course__container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  .container--diploma::before {
+    left: 25%;
+    height: 19%
+  }
+
+}
+
+@media only screen and (max-width: 635px) {
+  .principle-updates__container {
+    display: block;
+  }
+
+  .updates__container {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .course {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width:580px) {
+  .course__container::before {
+    width: 55%;
+  }
+
+  .container--bachelor::before {
+    width: 60%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1285px) {
+  .header-nav__items {
+    margin-left: 3.25em;
+  }
+}
+
+@media only screen and (max-width: 1172px) {
+  .header-nav__items {
+    margin-left: 2.6em;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .header-nav__items {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 1029px) {
   .row {
-    width: 320px;
+    width: 90%;
   }
-  header p {
-    font-size: 1em;
-    text-transform: capitalize;
-    margin-left: 20px;
+
+  .header-nav__items {
+    margin-left: 1em;
+    text-align: left;
   }
-  #logo {
-    width: 81px;
+}
+
+/* 
+@media only screen and (max-width:909px) {
+  .row {
+    width: 90%;
+    text-align: left;
   }
+
+  .header-nav__items {
+    margin-left: 1em;
+  }
+} */
+
+@media only screen and (max-width:855px) {
+  .header-nav__items {
+    margin-left: .8em;
+  }
+}
+
+@media only screen and (max-width:833px) {
+  .header-nav__items {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
   .menu {
-    width: 30px;
+    display: block;
   }
-  #material {
-    width: 84%;
-    top: 307px;
-    left: 30px;
+}
+
+@media only screen and (max-width: 769px) {
+  .row {
+    width: 95%;
   }
-  figure p {
-    left: 120px;
-    top: 360px;
+
+  .header__text {
+    display: block;
+    text-align: center;
   }
-  #right_arrow {
-    left: 279px;
+
+  .header__buttonContainer {
+    float: none;
+    text-align: center;
   }
-  .forDiploma {
-    top: 458px;
-    left: 40px;
+
+  .top_btn {
+    width: 8em;
+    height: 2.3em;
+    padding-top: 0;
   }
-  .forCoCurricularLogo {
-    -webkit-transform: translate(2%, 8%);
-            transform: translate(2%, 8%);
+
+  #header_logo {
+    width: 9em;
   }
-  .forCoCurricularLogo p {
-    -webkit-transform: translate(29%, 111%);
-            transform: translate(29%, 111%);
+
+  .header-second__text {
+    font-size: 2em;
   }
-  .first_activity {
+}
+
+@media only screen and (max-width:660px) {
+  .footer__container {
+    display: block;
+    text-align: center;
+  }
+
+  .affiliated__title {
+    margin-bottom: 20px;
+  }
+
+  .pokhara__container {
+    margin-left: 3.875em;
+  }
+
+  .socialmedia__container {
     margin-left: 0;
-    margin-right: 0;
+    margin-top: 10px;
   }
-  .copy_right p {
-    margin-left: 0;
+
+  .socialmedia__title {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width:553px) {
+  .header-second__text {
+    font-size: 1.8em;
   }
 }

@@ -1,5 +1,5 @@
 .course {
-    margin-top: 80px;
+    margin-top: 5em;
 }
 
 .course__title {
@@ -18,21 +18,21 @@
 }
 
 .course__container {
-    width: 300px;
+    width: 81%;
     height: auto;
     position: relative;
     border-radius: 5px;
     box-shadow: 1px 1px 3px 3px rgb(0, 0, 0, 0.3);
     background-color: white;
-    margin-top: 50px;
+    margin-top: 3.12em;
     transition: left 2s linear;
 }
 
 .course__container::before {
-    width: 138px;
-    height: 30px;
+    width: 46%;
+    height: 13%;
     position: absolute;
-    top: -30px;
+    bottom: 100%;
     color: white;
     background-color: #3498db;
     border-radius: 15px 15px 0px 0px;
@@ -41,12 +41,14 @@
 }
 
 .container__list {
-    margin: 20px 0 20px 30px;
+    margin: 1.25em 0 1.25em 1.875px;
 }
 
 .container__list-item {
     display: block;
     font-weight: 600;
+    margin-right: 0;
+    margin-left: 1em;
 }
 
 .container__list-item::before {
@@ -56,22 +58,22 @@
     border-radius: 50%;
     display: inline-block;
     background-color: #3498db;
-    margin-right: 13px;
+    margin-right: 0.81em;
 }
 
 .container--diploma::before {
     content: "Diploma In :";
-    left: 52px;
+    left: 18%;
 }
 
 .container--bachelor::before {
     content: "Bachelor In :";
-    left: 74px;
+    left: 25%;
 }
 
 .container--master::before {
     content: "Master In :";
-    left: 74px;
+    left: 26%;
 }
 
 /* #right_arrow_smallScreen {
