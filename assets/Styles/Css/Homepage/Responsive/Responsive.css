@@ -55,6 +55,10 @@
     width: 55%;
   }
 
+  .container--diploma::before {
+    left: 23%;
+  }
+
   .container--bachelor::before {
     width: 60%;
     left: 20%;

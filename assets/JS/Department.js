@@ -8,21 +8,11 @@ const forOverlay = document.querySelector(".section_overlay");
 const goBack = document.querySelector(".goBack");
 const forShadows = document.querySelectorAll(".department__container");
 const footer = document.querySelector("footer");
-const menu = document.querySelector(".menu");
-const forList = document.querySelector("nav ul");
+
 let stateVar = true;
 let contr = 0;
 let id;
 
-menu.addEventListener("click", e => {
-  contr += 1;
-  if (contr === 1) {
-    forList.style.display = "block";
-  } else if (contr === 2) {
-    forList.style.display = "none";
-    contr = 0;
-  }
-});
 
 btn_viewProfiles.forEach(viewProfile => {
   viewProfile.addEventListener("click", e => {
@@ -76,55 +66,4 @@ async function forModal() {
     .catch(err => {
       console.log(err);
     });
-}
-
-window.addEventListener("scroll", scroller);
-
-function scroller() {
-  const scrolled = window.scrollY;
-  // console.log(window.innerWidth);
-
-  if (window.innerWidth === 1349) {
-    if (scrolled >= 207) {
-      modalContainer.style.position = "fixed";
-      modalContainer.style.transform = "translate(200px , -100px)";
-    } else {
-      modalContainer.style.position = "absolute";
-      modalContainer.style.transform = "translate(200px , 100px)";
-    }
-  } else if (window.innerWidth === 768) {
-    if (scrolled >= 207) {
-      modalContainer.style.position = "fixed";
-      modalContainer.style.transform = "translate(63px , -184px)";
-    } else {
-      modalContainer.style.position = "absolute";
-      modalContainer.style.transform = "translate(63px , 100px)";
-    }
-  } else if (window.innerWidth === 425) {
-    console.log(scrolled);
-
-    if (scrolled >= 207) {
-      modalContainer.style.position = "fixed";
-      modalContainer.style.transform = "translate(11px, -170px)";
-    } else {
-      modalContainer.style.position = "absolute";
-      modalContainer.style.transform = "translate(11px, 67px)";
-    }
-  } else if (window.innerWidth === 375) {
-    if (scrolled >= 207) {
-      modalContainer.style.position = "fixed";
-      modalContainer.style.transform = "translate(3px, -183px)";
-    } else {
-      modalContainer.style.position = "absolute";
-      modalContainer.style.transform = "translate(3px, 75px)";
-    }
-  } else if (window.innerWidth === 320) {
-    if (scrolled >= 207) {
-      modalContainer.style.position = "fixed";
-      modalContainer.style.transform = "translate(4px , -211px)";
-    } else {
-      modalContainer.style.position = "absolute";
-      modalContainer.style.transform = "translate(4px, 65px)";
-    }
-  }
 }

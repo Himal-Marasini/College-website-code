@@ -2,28 +2,15 @@ const arrayofPic = ['1', '2', '3', '4', '5', '6', '7', '8'];
 const dots_Span = document.querySelectorAll('.dot');
 const btn_Left = document.querySelector('.icon--left-arrow');
 const btn_Right = document.querySelector('.icon--right-arrow');
+
 let image = document.querySelector('.image__container');
 let container = document.querySelector('.section__container-image');
-const menu = document.querySelector(".menu");
-const forList = document.querySelector("nav ul");
-const nav = document.querySelector('nav');
-var timing_Fnc;
-let contr = 0;
 
+var timing_Fnc;
 var left_Right = 0;
 var imageIndex = 0;
 
-menu.addEventListener("click", e => {
-    contr += 1;
-    if (contr === 1) {
-        forList.style.display = "block";
-        nav.style.height = "auto";
-    } else if (contr === 2) {
-        forList.style.display = "none";
-        contr = 0;
-        nav.style.height = '41px';
-    }
-});
+
 
 function imageSlider() {
 

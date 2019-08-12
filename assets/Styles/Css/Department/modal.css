@@ -10,6 +10,7 @@
   transform: translate(22%, 18%);
   border-radius: 5px;
   box-shadow: 1px 5px 5px 3px rgb(0, 0, 0, 0.1);
+  display: none;
 }
 
 .goBack {
