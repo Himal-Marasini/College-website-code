@@ -445,35 +445,55 @@ footer {
 }
 
 @media only screen and (max-width:833px) {
-  nav .row {
+  .nav-row {
     width: 100%;
-  }
-
-  .header-nav__items {
-    display: block;
-    margin: 0;
-    text-align: left;
-    padding-left: 10px;
-    border-bottom: 1px solid #fafafa;
-  }
-
-  .header-nav__item {
-    background: #3498db;
-    height: auto;
   }
 
   .forMenu {
     display: block;
+    width: 40px;
     height: 41px;
-    background: url(../assets/Images/menu.png) no-repeat 98% center;
+    background: url(../assets/Images/menu.png) no-repeat 60% center;
     cursor: pointer;
+  }
+
+  .header-nav__item {
+    background: #3498db;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: translate(-287px, 0px);
+            transform: translate(-287px, 0px);
+    transition: -webkit-transform 150ms linear;
+    transition: transform 150ms linear;
+    transition: transform 150ms linear, -webkit-transform 150ms linear;
+    z-index: 9999;
+  }
+
+  .header-nav__items {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .header-nav--open {
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    transition: -webkit-transform 150ms linear;
+    transition: transform 150ms linear;
+    transition: transform 150ms linear, -webkit-transform 150ms linear;
   }
 
 }
 
 @media only screen and (max-width: 769px) {
+
   .row {
     width: 95%;
+  }
+
+  .nav-row {
+    width: 100%;
   }
 
   .header__text {
@@ -526,6 +546,10 @@ footer {
 }
 
 @media only screen and (max-width:553px) {
+  .nav-row {
+    width: 100%;
+  }
+
   .header-second__text {
     font-size: 1.8em;
   }
