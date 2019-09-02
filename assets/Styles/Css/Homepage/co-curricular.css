@@ -12,26 +12,27 @@
 }
 
 .cocurricular-Activities {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
     margin-top: 2.5em;
 }
 
 .cocurricular-Activities__container {
-    width: 27%;
+    width: 85%;
     height: auto;
     border: 2px solid #3498db;
 }
 
 .cocurricular-Activities__imageContainer {
     overflow: hidden;
+    text-align: center;
 }
 
 .cocurricular-Activities__image {
     width: 66%;
     /* height: auto; */
-    margin-left: 2.93em;
+    /* margin-left: 2.93em; */
     margin-top: 1.25em;
     transition: transform 900ms linear;
 }

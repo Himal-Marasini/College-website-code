@@ -10,7 +10,31 @@
   .container--master::before {
     height: 29%;
   }
+
+  .cocurricular-Activities {
+    grid-template-columns: auto;
+  }
+
+  .cocurricular-Activities__container:first-child {
+    grid-area: 1/1/1/5;
+    width: 89%;
+  }
+
+  .cocurricular-Activities__container:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .cocurricular-Activities__container:last-child {
+    margin-top: 30px;
+  }
 }
+
+/* @media only screen and (max-width:950px) {
+
+  .cocurricular-Activities__text {
+    margin-left: 0;
+  }
+} */
 
 @media only screen and (max-width: 714px) {
   .course__grid-container {
